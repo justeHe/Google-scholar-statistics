@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Google Scholar First/Corresponding Metrics",
-  "version": "0.3.0",
+  "version": "0.11.1",
   "description": "Show first/corresponding-author citations, h-index and i10-index on Google Scholar profiles.",
   "permissions": [
     "storage",
@@ -50,11 +50,30 @@
         "src/content/stats-engine.js",
         "src/content/scholar-dom.js",
         "src/content/detail-fetcher.js",
+        "src/content/venue-matcher.js",
         "src/content/show-more-loader.js",
         "src/content/ui-panel.js",
         "src/content/bootstrap.js"
       ],
       "run_at": "document_idle"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "data/dist/venue-index.json"
+      ],
+      "matches": [
+        "https://scholar.google.com/*",
+        "https://scholar.google.com.hk/*",
+        "https://scholar.google.com.tw/*",
+        "https://scholar.google.com.sg/*",
+        "https://scholar.google.co.jp/*",
+        "https://scholar.google.co.kr/*",
+        "https://scholar.google.co.uk/*",
+        "https://scholar.google.co.in/*",
+        "https://scholar.google.cn/*"
+      ]
     }
   ]
 }

@@ -44,12 +44,14 @@
   }
 
   // 论文详情页（view_citation）与集群页（cluster）结构一致，
-  // 都包含 .gs_scl 区块与 Authors 字段，这里只取完整作者列表。
+  // 都包含 .gs_scl 区块，这里取完整作者列表与载体（Journal/Conference/Book）字段。
   function parseDetailHtml(html) {
     const parser = new DOMParser();
     const doc = parser.parseFromString(html, "text/html");
     const fields = {};
     let authorsText = "";
+    let venueText = "";
+    let venueFallback = "";
 
     doc.querySelectorAll(".gs_scl").forEach((section) => {
       const field = section.querySelector(".gsc_oci_field");
@@ -61,7 +63,15 @@
       if (DETAIL_FIELD_LABELS.authors && DETAIL_FIELD_LABELS.authors.test(label)) {
         authorsText = text;
       }
+      if (!venueText && DETAIL_FIELD_LABELS.venue && DETAIL_FIELD_LABELS.venue.test(label)) {
+        venueText = text;
+      }
+      if (!venueFallback && DETAIL_FIELD_LABELS.venueFallback && DETAIL_FIELD_LABELS.venueFallback.test(label)) {
+        venueFallback = text;
+      }
     });
+
+    if (!venueText) venueText = venueFallback;
 
     if (!authorsText) {
       const guess = Array.from(doc.querySelectorAll(".gsc_oci_value"))
@@ -70,7 +80,7 @@
       authorsText = guess || "";
     }
 
-    return { authorsText, fields };
+    return { authorsText, venueText, fields };
   }
 
   async function fetchDetail(record, settings) {

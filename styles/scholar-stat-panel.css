@@ -42,14 +42,15 @@
 
 /* 表头与数值列居中对齐，数字自然落在标题下方 */
 .sas-cit-head-cell {
-  padding: 0 8px 2px;
+  padding: 0 4px 2px;
   color: #777;
+  font-size: 11px;
   text-align: center;
   white-space: nowrap;
 }
 
 .sas-cit-value {
-  padding: 0 8px 4px;
+  padding: 0 4px 4px;
   color: #222;
   text-align: center;
   white-space: nowrap;
@@ -67,24 +68,121 @@
   font-size: 12px;
 }
 
-/* 兜底样式，参照 Google Scholar 的 Show more 按钮 */
-.sas-cit-load {
+/* 操作（Load all / Grades / Export）：纯蓝色文字，不带按钮样式 */
+.sas-cit-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
   margin-top: 6px;
-  padding: 4px 12px;
-  border: 1px solid #ccc;
-  border-radius: 2px;
-  background: #f5f5f5;
-  color: #444;
+}
+
+.sas-cit-load {
+  padding: 2px 4px;
+  border: none;
+  background: transparent;
+  color: #1a73e8;
   font: inherit;
-  font-size: 12px;
+  font-size: 13px;
   cursor: pointer;
 }
 
 .sas-cit-load:hover {
-  background: #e8e8e8;
+  color: #1765cc;
+  text-decoration: underline;
 }
 
 .sas-cit-load:disabled {
   opacity: 0.6;
   cursor: default;
+  text-decoration: none;
+}
+
+.sas-top-venues {
+  margin-top: 6px;
+}
+
+.sas-break-table {
+  margin-top: 2px;
+}
+
+/* 明细表有四列，侧栏较窄时表头允许折行 */
+.sas-break-table .sas-cit-head-cell {
+  white-space: normal;
+}
+
+/* 每篇论文标题下一行的评级徽标（CCF / SCI / 川大）
+   样式参照 .clean-citation-badge：浅底深字、圆角、600 字重、hover 加深 */
+.sas-venue-badge {
+  position: relative;
+  display: block;
+  margin: 2px 0 4px;
+  line-height: 1.4;
+}
+
+.sas-badge-chip {
+  display: inline-block;
+  margin: 0 8px 2px 0;
+  padding: 2px 6px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+/* 顶级（CCF A / SCI 1 区 / 川大 A、A−、B）共用一种颜色，其余按等级递减 */
+.sas-tier-top {
+  background: #fdecea;
+  color: #c5221f;
+}
+
+.sas-tier-top:hover {
+  background: #fadbd8;
+}
+
+.sas-tier-mid {
+  background: #fef7e0;
+  color: #b06000;
+}
+
+.sas-tier-mid:hover {
+  background: #fdeed0;
+}
+
+.sas-tier-low {
+  background: #f1f3f4;
+  color: #5f6368;
+}
+
+.sas-tier-low:hover {
+  background: #e8eaed;
+}
+
+.sas-tier-lowest {
+  background: #f8f9fa;
+  color: #9aa0a6;
+}
+
+.sas-tier-lowest:hover {
+  background: #e8eaed;
+}
+
+/* 悬浮提示：数据库里的完整名称（纯 CSS，无事件监听） */
+.sas-venue-badge:hover::after {
+  content: attr(data-title);
+  position: absolute;
+  bottom: calc(100% + 4px);
+  left: 0;
+  z-index: 1000;
+  max-width: 320px;
+  padding: 5px 8px;
+  border-radius: 4px;
+  background: #333;
+  color: #fff;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 1.4;
+  white-space: normal;
+  pointer-events: none;
 }

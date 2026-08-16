@@ -1,11 +1,14 @@
 {
   "name": "scholar-first-corresponding-metrics",
-  "version": "0.1.0",
+  "version": "0.11.1",
   "private": true,
-  "description": "Chrome extension for first/last-author citation metrics on Google Scholar profiles.",
+  "description": "Chrome extension for first/corresponding-author metrics and top-venue counts on Google Scholar profiles.",
   "scripts": {
-    "test": "node tests/author-matcher.test.js && node tests/role-classifier.test.js && node tests/stats-engine.test.js",
-    "scrape:journals": "node scripts/scrape-journal-data.js"
+    "test": "node tests/profile-matching.test.js",
+    "fetch:profile": "node scripts/fetch-profile.js",
+    "match:fixture": "node scripts/match-fixture.js",
+    "scrape:journals": "node scripts/scrape-journal-data.js",
+    "build:venues": "node scripts/build-venue-index.js"
   },
   "devDependencies": {}
 }

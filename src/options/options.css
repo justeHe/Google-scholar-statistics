@@ -45,7 +45,8 @@ label {
 
 input[type="text"],
 input[type="number"],
-textarea {
+textarea,
+select {
   width: 100%;
   min-width: 0;
   border: 1px solid #c9d3e1;
@@ -56,7 +57,8 @@ textarea {
 }
 
 input[type="text"],
-input[type="number"] {
+input[type="number"],
+select {
   min-height: 34px;
   padding: 0 10px;
 }

@@ -11,16 +11,22 @@
       <h1>Scholar First/Corresponding Metrics</h1>
       <form id="settings-form">
         <section>
-          <h2>Author matching</h2>
-          <label>
-            Author aliases
-            <textarea id="aliases" rows="5" placeholder="One alias per line"></textarea>
-          </label>
-        </section>
-        <section>
           <h2>Page behavior</h2>
           <label class="check"><input id="autoLoadAll" type="checkbox">Automatically load all papers (Show more)</label>
           <label class="check"><input id="detailFetchEnabled" type="checkbox">Complete truncated author lists from detail pages</label>
+        </section>
+        <section>
+          <h2>Top venues</h2>
+          <label>
+            Top journal criteria
+            <select id="topJournalCriteria">
+              <option value="scu">SCU grade A / A− / B</option>
+              <option value="casTop">CAS zone 1 &amp; Top</option>
+              <option value="either">Either</option>
+            </select>
+          </label>
+          <label class="check"><input id="topJournalIncludeB" type="checkbox">Include SCU B journals as top journals</label>
+          <label class="check"><input id="topConfIncludeB" type="checkbox">Include CCF-B conferences as top conferences</label>
         </section>
         <div class="actions">
           <button type="submit">Save</button>

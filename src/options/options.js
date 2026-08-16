@@ -6,17 +6,15 @@
   const status = document.getElementById("status");
 
   const fields = {
-    aliases: document.getElementById("aliases"),
     autoLoadAll: document.getElementById("autoLoadAll"),
-    detailFetchEnabled: document.getElementById("detailFetchEnabled")
+    detailFetchEnabled: document.getElementById("detailFetchEnabled"),
+    topJournalCriteria: document.getElementById("topJournalCriteria"),
+    topJournalIncludeB: document.getElementById("topJournalIncludeB"),
+    topConfIncludeB: document.getElementById("topConfIncludeB")
   };
 
-  function splitLines(value) {
-    return String(value || "")
-      .split(/[\n,]+/)
-      .map((item) => item.trim())
-      .filter(Boolean);
-  }
+  // 别名只做后台统计用、无 UI 入口：保存其他设置时原样保留已存别名。
+  let currentAliases = [];
 
   function setStatus(text) {
     status.textContent = text;
@@ -24,16 +22,21 @@
   }
 
   function render(settings) {
-    fields.aliases.value = (settings.aliases || []).join("\n");
     fields.autoLoadAll.checked = Boolean(settings.autoLoadAll);
     fields.detailFetchEnabled.checked = Boolean(settings.detailFetchEnabled);
+    fields.topJournalCriteria.value = settings.topJournalCriteria || "scu";
+    fields.topJournalIncludeB.checked = settings.topJournalIncludeB !== false;
+    fields.topConfIncludeB.checked = Boolean(settings.topConfIncludeB);
   }
 
   function collect() {
     return Object.assign({}, DEFAULT_SETTINGS, {
-      aliases: splitLines(fields.aliases.value),
+      aliases: currentAliases,
       autoLoadAll: fields.autoLoadAll.checked,
-      detailFetchEnabled: fields.detailFetchEnabled.checked
+      detailFetchEnabled: fields.detailFetchEnabled.checked,
+      topJournalCriteria: fields.topJournalCriteria.value,
+      topJournalIncludeB: fields.topJournalIncludeB.checked,
+      topConfIncludeB: fields.topConfIncludeB.checked
     });
   }
 
@@ -54,5 +57,8 @@
     setStatus("Cache cleared");
   });
 
-  storage.getSettings().then(render);
+  storage.getSettings().then((settings) => {
+    currentAliases = (settings && settings.aliases) || [];
+    render(settings);
+  });
 })();
