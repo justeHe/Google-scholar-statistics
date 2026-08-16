@@ -15,7 +15,7 @@ A Chrome/Chromium Manifest V3 extension that adds a "First/corresponding metrics
 1. Open `chrome://extensions` in Chrome.
 2. Enable Developer mode.
 3. Click "Load unpacked".
-4. Select this directory: `/Users/hedong/Desktop/Research/谷歌学术工具`.
+4. Select this directory of this repository.
 5. Open a Google Scholar profile page to test.
 
 ## Verify
