@@ -1,0 +1,5455 @@
+{
+  "source": "https://scu-journal.east.monster/ccf-directory.csv",
+  "fetchedAt": "2026-08-15T15:48:12.985Z",
+  "count": 681,
+  "rows": [
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "期刊",
+      "CCF分级": "A",
+      "川大分级": "D",
+      "简称": "TOCS",
+      "全称": "ACM Transactions on Computer Systems"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "期刊",
+      "CCF分级": "A",
+      "川大分级": "D",
+      "简称": "TOS",
+      "全称": "ACM Transactions on Storage"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "期刊",
+      "CCF分级": "A",
+      "川大分级": "C",
+      "简称": "TCAD",
+      "全称": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "期刊",
+      "CCF分级": "A",
+      "川大分级": "C",
+      "简称": "TC",
+      "全称": "IEEE Transactions on Computers"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "期刊",
+      "CCF分级": "A",
+      "川大分级": "C",
+      "简称": "TPDS",
+      "全称": "IEEE Transactions on Parallel and Distributed Systems"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "期刊",
+      "CCF分级": "A",
+      "川大分级": "D",
+      "简称": "TACO",
+      "全称": "ACM Transactions on Architecture and Code Optimization"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "D",
+      "简称": "TAAS",
+      "全称": "ACM Transactions on Autonomous and Adaptive Systems"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "E",
+      "简称": "TODAES",
+      "全称": "ACM Transactions on Design Automation of Electronic Systems"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "D",
+      "简称": "TECS",
+      "全称": "ACM Transactions on Embedded Computing Systems"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "E",
+      "简称": "TRETS",
+      "全称": "ACM Transactions on Reconfigurable Technology and Systems"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "C",
+      "简称": "TVLSI",
+      "全称": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "D",
+      "简称": "JPDC",
+      "全称": "Journal of Parallel and Distributed Computing"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "D",
+      "简称": "JSA",
+      "全称": "Journal of Systems Architecture: Embedded Software Design"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "D",
+      "简称": "",
+      "全称": "Parallel Computing"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "D",
+      "简称": "",
+      "全称": "Performance Evaluation: An International Journal"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "C",
+      "简称": "TCC",
+      "全称": "IEEE Transactions on Cloud Computing"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "E",
+      "简称": "JETC",
+      "全称": "ACM Journal on Emerging Technologies in Computing Systems"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "E",
+      "简称": "",
+      "全称": "Concurrency and Computation: Practice and Experience"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "D",
+      "简称": "DC",
+      "全称": "Distributed Computing"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "B",
+      "简称": "FGCS",
+      "全称": "Future Generation Computer Systems"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "D",
+      "简称": "Integration",
+      "全称": "Integration, the VLSI Journal"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "E",
+      "简称": "JETTA",
+      "全称": "Journal of Electronic Testing-Theory and Applications"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "D",
+      "简称": "JGC",
+      "全称": "Journal of Grid computing"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "C",
+      "简称": "RTS",
+      "全称": "Real-Time Systems"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "E",
+      "简称": "TJSC",
+      "全称": "The Journal of Supercomputing"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "B",
+      "简称": "TCASI",
+      "全称": "IEEE Transactions on Circuits and Systems I: Regular Papers"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "CCF-THPC",
+      "全称": "CCF Transactions on High Performance Computing"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "TSUSC",
+      "全称": "IEEE Transactions on Sustainable Computing"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "会议",
+      "CCF分级": "A",
+      "川大分级": "",
+      "简称": "PPoPP",
+      "全称": "ACM SIGPLAN Symposium on Principles & Practice of Parallel Programming"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "会议",
+      "CCF分级": "A",
+      "川大分级": "",
+      "简称": "FAST",
+      "全称": "USENIX Conference on File and Storage Technologies"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "会议",
+      "CCF分级": "A",
+      "川大分级": "",
+      "简称": "DAC",
+      "全称": "Design Automation Conference"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "会议",
+      "CCF分级": "A",
+      "川大分级": "",
+      "简称": "HPCA",
+      "全称": "IEEE International Symposium on High Performance Computer Architecture"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "会议",
+      "CCF分级": "A",
+      "川大分级": "",
+      "简称": "MICRO",
+      "全称": "IEEE/ACM International Symposium on Microarchitecture"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "会议",
+      "CCF分级": "A",
+      "川大分级": "",
+      "简称": "SC",
+      "全称": "International Conference for High Performance Computing, Networking, Storage, and Analysis"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "会议",
+      "CCF分级": "A",
+      "川大分级": "",
+      "简称": "ASPLOS",
+      "全称": "International Conference on Architectural Support for Programming Languages and Operating Systems"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "会议",
+      "CCF分级": "A",
+      "川大分级": "",
+      "简称": "ISCA",
+      "全称": "International Symposium on Computer Architecture"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "会议",
+      "CCF分级": "A",
+      "川大分级": "",
+      "简称": "ACM SIGOPS ATC （原USENIX ATC）",
+      "全称": "ACM SIGOPS Annual Technical Conference"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "会议",
+      "CCF分级": "A",
+      "川大分级": "",
+      "简称": "EuroSys",
+      "全称": "European Conference on Computer Systems"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "会议",
+      "CCF分级": "A",
+      "川大分级": "",
+      "简称": "HPDC",
+      "全称": "The International ACM Symposium on High-Performance Parallel and Distributed Computing"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "SoCC",
+      "全称": "ACM Symposium on Cloud Computing"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "SPAA",
+      "全称": "ACM Symposium on Parallelism in Algorithms and Architectures"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "PODC",
+      "全称": "ACM Symposium on Principles of Distributed Computing"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "FPGA",
+      "全称": "ACM/SIGDA International Symposium on Field-Programmable Gate Arrays"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "CGO",
+      "全称": "The International Symposium on Code Generation and Optimization"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "DATE",
+      "全称": "Design, Automation & Test in Europe"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "HOT CHIPS",
+      "全称": "Hot Chips: A Symposium on High Performance Chips"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "CLUSTER",
+      "全称": "IEEE International Conference on Cluster Computing"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "ICCD",
+      "全称": "International Conference on Computer Design"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "ICCAD",
+      "全称": "International Conference on Computer-Aided Design"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "ICDCS",
+      "全称": "IEEE International Conference on Distributed Computing Systems"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "CODES+ ISSS",
+      "全称": "International Conference on Hardware/Software Co-design and System Synthesis"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "HiPEAC",
+      "全称": "International Conference on High Performance and Embedded Architectures and Compilers"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "SIG-METRICS",
+      "全称": "International Conference on Measurement and Modeling of Computer Systems"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "PACT",
+      "全称": "International Conference on Parallel Architectures and Compilation Techniques"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "ICPP",
+      "全称": "International Conference on Parallel Processing"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "ICS",
+      "全称": "International Conference on Supercomputing"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "VEE",
+      "全称": "International Conference on Virtual Execution Environments"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "IPDPS",
+      "全称": "IEEE International Parallel & Distributed Processing Symposium"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "Performance",
+      "全称": "International Symposium on Computer Performance, Modeling, Measurements and Evaluation"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "ITC",
+      "全称": "International Test Conference"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "LISA",
+      "全称": "Large Installation System Administration Conference"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "MSST",
+      "全称": "Mass Storage Systems and Technologies"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "RTAS",
+      "全称": "IEEE Real-Time and Embedded Technology and Applications Symposium"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "Euro-Par",
+      "全称": "European Conference on Parallel and Distributed Computing Springer"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "ISCAS",
+      "全称": "IEEE International Symposium on Circuits and Systems"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "CF",
+      "全称": "ACM International Conference on Computing Frontiers"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "SYSTOR",
+      "全称": "ACM International Systems and Storage Conference"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "NOCS",
+      "全称": "ACM/IEEE International Symposium on Networks-on-Chip"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "ASAP",
+      "全称": "IEEE International Conference on Application-Specific Systems, Architectures, and Processors"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "ASP-DAC",
+      "全称": "Asia and South Pacific Design Automation Conference"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "ETS",
+      "全称": "IEEE European Test Symposium"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "FPL",
+      "全称": "International Conference on Field-Programmable Logic and Applications"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "FCCM",
+      "全称": "IEEE Symposium on Field-Programmable Custom Computing Machines"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "GLSVLSI",
+      "全称": "Great Lakes Symposium on VLSI"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "ATS",
+      "全称": "IEEE Asian Test Symposium"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "HPCC",
+      "全称": "IEEE International Conference on High Performance Computing and Communications"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "HiPC",
+      "全称": "IEEE International Conference on High Performance Computing, Data and Analytics"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "MASCOTS",
+      "全称": "International Symposium on Modeling, Analysis, and Simulation of Computer and Telecommunication Systems"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "ISPA",
+      "全称": "IEEE International Symposium on Parallel and Distributed Processing with Applications"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "CCGRID",
+      "全称": "IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "NPC",
+      "全称": "IFIP International Conference on Network and Parallel Computing"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "ICA3PP",
+      "全称": "International Conference on Algorithms and Architectures for Parallel Processing"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "CASES",
+      "全称": "International Conference on Compilers, Architectures, and Synthesis for Embedded Systems"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "FPT",
+      "全称": "International Conference on Field-Programmable Technology"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "ICPADS",
+      "全称": "International Conference on Parallel and Distributed Systems"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "ISLPED",
+      "全称": "International Symposium on Low Power Electronics and Design"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "ISPD",
+      "全称": "International Symposium on Physical Design"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "HOTI",
+      "全称": "IEEE Symposium on High-Performance Interconnects"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "VTS",
+      "全称": "IEEE VLSI Test Symposium"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "ITC-Asia",
+      "全称": "International Test Conference in Asia"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "SEC",
+      "全称": "ACM/IEEE Symposium on Edge Computing"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "NAS",
+      "全称": "International Conference on Networking, Architecture and Storages"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "HotStorage",
+      "全称": "HotStorage"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "APPT",
+      "全称": "International Symposium on Advanced Parallel Processing Technology"
+    },
+    {
+      "大类": "计算机体系结构/并行与分布计算/存储系统",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "JCC",
+      "全称": "International Conference on JointCloud Computing"
+    },
+    {
+      "大类": "计算机网络",
+      "类型": "期刊",
+      "CCF分级": "A",
+      "川大分级": "B",
+      "简称": "JSAC",
+      "全称": "IEEE Journal on Selected Areas in Communications"
+    },
+    {
+      "大类": "计算机网络",
+      "类型": "期刊",
+      "CCF分级": "A",
+      "川大分级": "C",
+      "简称": "TMC",
+      "全称": "IEEE Transactions on Mobile Computing"
+    },
+    {
+      "大类": "计算机网络",
+      "类型": "期刊",
+      "CCF分级": "A",
+      "川大分级": "C",
+      "简称": "TON",
+      "全称": "IEEE Transactions on Networking （原 IEEE/ACM Transactions on Networking）"
+    },
+    {
+      "大类": "计算机网络",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "D",
+      "简称": "TOIT",
+      "全称": "ACM Transactions on Internet Technology"
+    },
+    {
+      "大类": "计算机网络",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "D",
+      "简称": "TOMM",
+      "全称": "ACM Transactions on Multimedia Computing, Communications and Applications"
+    },
+    {
+      "大类": "计算机网络",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "D",
+      "简称": "TOSN",
+      "全称": "ACM Transactions on Sensor Networks"
+    },
+    {
+      "大类": "计算机网络",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "D",
+      "简称": "CN",
+      "全称": "Computer Networks"
+    },
+    {
+      "大类": "计算机网络",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "B",
+      "简称": "TCOM",
+      "全称": "IEEE Transactions on Communications"
+    },
+    {
+      "大类": "计算机网络",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "B",
+      "简称": "TWC",
+      "全称": "IEEE Transactions on Wireless Communications"
+    },
+    {
+      "大类": "计算机网络",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "C",
+      "简称": "",
+      "全称": "Ad Hoc Networks"
+    },
+    {
+      "大类": "计算机网络",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "D",
+      "简称": "CC",
+      "全称": "Computer Communications"
+    },
+    {
+      "大类": "计算机网络",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "C",
+      "简称": "TNSM",
+      "全称": "IEEE Transactions on Network and Service Management"
+    },
+    {
+      "大类": "计算机网络",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "E",
+      "简称": "",
+      "全称": "IET Communications"
+    },
+    {
+      "大类": "计算机网络",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "C",
+      "简称": "JNCA",
+      "全称": "Journal of Network and Computer Applications"
+    },
+    {
+      "大类": "计算机网络",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "E",
+      "简称": "MONET",
+      "全称": "Mobile Networks and Applications"
+    },
+    {
+      "大类": "计算机网络",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "E",
+      "简称": "",
+      "全称": "Networks"
+    },
+    {
+      "大类": "计算机网络",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "D",
+      "简称": "PPNA",
+      "全称": "Peer-to-Peer Networking and Applications"
+    },
+    {
+      "大类": "计算机网络",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "E",
+      "简称": "WCMC",
+      "全称": "Wireless Communications and Mobile Computing"
+    },
+    {
+      "大类": "计算机网络",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "E",
+      "简称": "",
+      "全称": "Wireless Networks"
+    },
+    {
+      "大类": "计算机网络",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "B",
+      "简称": "IOT",
+      "全称": "IEEE Internet of Things Journal"
+    },
+    {
+      "大类": "计算机网络",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "TIOT",
+      "全称": "ACM Transactions on Internet of Things"
+    },
+    {
+      "大类": "计算机网络",
+      "类型": "会议",
+      "CCF分级": "A",
+      "川大分级": "",
+      "简称": "SIGCOMM",
+      "全称": "ACM International Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication"
+    },
+    {
+      "大类": "计算机网络",
+      "类型": "会议",
+      "CCF分级": "A",
+      "川大分级": "",
+      "简称": "MobiCom",
+      "全称": "ACM International Conference on Mobile Computing and Networking"
+    },
+    {
+      "大类": "计算机网络",
+      "类型": "会议",
+      "CCF分级": "A",
+      "川大分级": "",
+      "简称": "INFOCOM",
+      "全称": "IEEE International Conference on Computer Communications"
+    },
+    {
+      "大类": "计算机网络",
+      "类型": "会议",
+      "CCF分级": "A",
+      "川大分级": "",
+      "简称": "NSDI",
+      "全称": "Symposium on Network System Design and Implementation"
+    },
+    {
+      "大类": "计算机网络",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "SenSys",
+      "全称": "ACM Conference on Embedded Networked Sensor Systems"
+    },
+    {
+      "大类": "计算机网络",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "CoNEXT",
+      "全称": "ACM International Conference on Emerging Networking Experiments and Technologies"
+    },
+    {
+      "大类": "计算机网络",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "SECON",
+      "全称": "IEEE International Conference on Sensing, Communication, and Networking"
+    },
+    {
+      "大类": "计算机网络",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "IPSN",
+      "全称": "International Conference on Information Processing in Sensor Networks"
+    },
+    {
+      "大类": "计算机网络",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "MobiSys",
+      "全称": "ACM International Conference on Mobile Systems, Applications,  and Services"
+    },
+    {
+      "大类": "计算机网络",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "ICNP",
+      "全称": "IEEE International Conference on Network Protocols"
+    },
+    {
+      "大类": "计算机网络",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "MobiHoc",
+      "全称": "International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing"
+    },
+    {
+      "大类": "计算机网络",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "NOSSDAV",
+      "全称": "International Workshop on Network and Operating System Support for Digital Audio and Video"
+    },
+    {
+      "大类": "计算机网络",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "IWQoS",
+      "全称": "IEEE/ACM International Workshop on Quality of Service"
+    },
+    {
+      "大类": "计算机网络",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "IMC",
+      "全称": "ACM Internet Measurement Conference"
+    },
+    {
+      "大类": "计算机网络",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "ANCS",
+      "全称": "ACM/IEEE Symposium on Architectures for Networking and Communication Systems"
+    },
+    {
+      "大类": "计算机网络",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "APNOMS",
+      "全称": "Asia-Pacific Network Operations and Management Symposium"
+    },
+    {
+      "大类": "计算机网络",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "FORTE",
+      "全称": "International Conference on Formal Techniques for Distributed  Objects, Components, and Systems"
+    },
+    {
+      "大类": "计算机网络",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "LCN",
+      "全称": "IEEE Conference on Local Computer Networks"
+    },
+    {
+      "大类": "计算机网络",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "GLOBECOM",
+      "全称": "IEEE Global Communications Conference"
+    },
+    {
+      "大类": "计算机网络",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "ICC",
+      "全称": "IEEE International Conference on Communications"
+    },
+    {
+      "大类": "计算机网络",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "ICCCN",
+      "全称": "IEEE International Conference on Computer Communications and Networks"
+    },
+    {
+      "大类": "计算机网络",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "MASS",
+      "全称": "IEEE International Conference on Mobile Adhoc and Sensor Systems"
+    },
+    {
+      "大类": "计算机网络",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "P2P",
+      "全称": "IEEE International Conference on Peer-to-Peer Computing"
+    },
+    {
+      "大类": "计算机网络",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "IPCCC",
+      "全称": "IEEE International Performance Computing and Communications Conference"
+    },
+    {
+      "大类": "计算机网络",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "WoWMoM",
+      "全称": "IEEE International Symposium on a World of Wireless, Mobile and Multimedia Networks"
+    },
+    {
+      "大类": "计算机网络",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "ISCC",
+      "全称": "IEEE Symposium on Computers and Communications"
+    },
+    {
+      "大类": "计算机网络",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "WCNC",
+      "全称": "IEEE Wireless Communications and Networking Conference"
+    },
+    {
+      "大类": "计算机网络",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "Networking",
+      "全称": "IFIP International Conferences on Networking"
+    },
+    {
+      "大类": "计算机网络",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "IM",
+      "全称": "IFIP/IEEE International Symposium on Integrated Network Management"
+    },
+    {
+      "大类": "计算机网络",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "MSN",
+      "全称": "International Conference on Mobility, Sensing and Networking"
+    },
+    {
+      "大类": "计算机网络",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "MSWiM",
+      "全称": "International Conference on Modeling, Analysis and Simulation of Wireless and Mobile Systems"
+    },
+    {
+      "大类": "计算机网络",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "WASA",
+      "全称": "The International Conference on Wireless Artificial Intelligent Computing Systems and Applications"
+    },
+    {
+      "大类": "计算机网络",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "HotNets",
+      "全称": "ACM The Workshop on Hot Topics in Networks"
+    },
+    {
+      "大类": "计算机网络",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "APNet",
+      "全称": "Asia-Pacific Workshop on Networking"
+    },
+    {
+      "大类": "网络与信息安全",
+      "类型": "期刊",
+      "CCF分级": "A",
+      "川大分级": "B",
+      "简称": "TDSC",
+      "全称": "IEEE Transactions on Dependable and Secure Computing"
+    },
+    {
+      "大类": "网络与信息安全",
+      "类型": "期刊",
+      "CCF分级": "A",
+      "川大分级": "B",
+      "简称": "TIFS",
+      "全称": "IEEE Transactions on Information Forensics and Security"
+    },
+    {
+      "大类": "网络与信息安全",
+      "类型": "期刊",
+      "CCF分级": "A",
+      "川大分级": "D",
+      "简称": "",
+      "全称": "Journal of Cryptology"
+    },
+    {
+      "大类": "网络与信息安全",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "C",
+      "简称": "TOPS",
+      "全称": "ACM Transactions on Privacy and Security"
+    },
+    {
+      "大类": "网络与信息安全",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "C",
+      "简称": "",
+      "全称": "Computers & Security"
+    },
+    {
+      "大类": "网络与信息安全",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "C",
+      "简称": "",
+      "全称": "Designs, Codes and Cryptography"
+    },
+    {
+      "大类": "网络与信息安全",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "JCS",
+      "全称": "Journal of Computer Security"
+    },
+    {
+      "大类": "网络与信息安全",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "Cybersecurity",
+      "全称": "Cybersecurity"
+    },
+    {
+      "大类": "网络与信息安全",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "CLSR",
+      "全称": "Computer Law & Security Review"
+    },
+    {
+      "大类": "网络与信息安全",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "",
+      "全称": "EURASIP Journal on Information Security"
+    },
+    {
+      "大类": "网络与信息安全",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "E",
+      "简称": "",
+      "全称": "IET Information Security"
+    },
+    {
+      "大类": "网络与信息安全",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "IMCS",
+      "全称": "Information and Computer Security"
+    },
+    {
+      "大类": "网络与信息安全",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "IJICS",
+      "全称": "International Journal of Information and Computer Security"
+    },
+    {
+      "大类": "网络与信息安全",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "IJISP",
+      "全称": "International Journal of Information Security and Privacy"
+    },
+    {
+      "大类": "网络与信息安全",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "E",
+      "简称": "JISA",
+      "全称": "Journal of Information Security and Applications"
+    },
+    {
+      "大类": "网络与信息安全",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "E",
+      "简称": "SCN",
+      "全称": "Security and Communication Networks"
+    },
+    {
+      "大类": "网络与信息安全",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "HCC",
+      "全称": "High-Confidence Computing"
+    },
+    {
+      "大类": "网络与信息安全",
+      "类型": "会议",
+      "CCF分级": "A",
+      "川大分级": "",
+      "简称": "CCS",
+      "全称": "ACM Conference on Computer and Communications Security"
+    },
+    {
+      "大类": "网络与信息安全",
+      "类型": "会议",
+      "CCF分级": "A",
+      "川大分级": "",
+      "简称": "EUROCRYPT",
+      "全称": "International Conference on the Theory and Applications of  Cryptographic Techniques"
+    },
+    {
+      "大类": "网络与信息安全",
+      "类型": "会议",
+      "CCF分级": "A",
+      "川大分级": "",
+      "简称": "S&P",
+      "全称": "IEEE Symposium on Security and Privacy"
+    },
+    {
+      "大类": "网络与信息安全",
+      "类型": "会议",
+      "CCF分级": "A",
+      "川大分级": "",
+      "简称": "CRYPTO",
+      "全称": "International Cryptology Conference"
+    },
+    {
+      "大类": "网络与信息安全",
+      "类型": "会议",
+      "CCF分级": "A",
+      "川大分级": "",
+      "简称": "USENIX Security",
+      "全称": "USENIX Security Symposium"
+    },
+    {
+      "大类": "网络与信息安全",
+      "类型": "会议",
+      "CCF分级": "A",
+      "川大分级": "",
+      "简称": "NDSS",
+      "全称": "Network and Distributed System Security Symposium"
+    },
+    {
+      "大类": "网络与信息安全",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "ACSAC",
+      "全称": "Annual Computer Security Applications Conference"
+    },
+    {
+      "大类": "网络与信息安全",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "ASIACRYPT",
+      "全称": "Annual International Conference on the Theory and Application of Cryptology and Information Security"
+    },
+    {
+      "大类": "网络与信息安全",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "ESORICS",
+      "全称": "European Symposium on Research in Computer Security"
+    },
+    {
+      "大类": "网络与信息安全",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "FSE",
+      "全称": "Fast Software Encryption"
+    },
+    {
+      "大类": "网络与信息安全",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "CSFW",
+      "全称": "IEEE Computer Security Foundations Workshop"
+    },
+    {
+      "大类": "网络与信息安全",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "SRDS",
+      "全称": "IEEE International Symposium on Reliable Distributed Systems"
+    },
+    {
+      "大类": "网络与信息安全",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "CHES",
+      "全称": "International Conference on Cryptographic Hardware and Embedded Systems"
+    },
+    {
+      "大类": "网络与信息安全",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "DSN",
+      "全称": "International Conference on Dependable Systems and Networks"
+    },
+    {
+      "大类": "网络与信息安全",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "RAID",
+      "全称": "International Symposium on Recent Advances in Intrusion Detection"
+    },
+    {
+      "大类": "网络与信息安全",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "PKC",
+      "全称": "International Workshop on Practice and Theory in Public Key Cryptography"
+    },
+    {
+      "大类": "网络与信息安全",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "TCC",
+      "全称": "Theory of Cryptography Conference"
+    },
+    {
+      "大类": "网络与信息安全",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "WiSec",
+      "全称": "ACM Conference on Security and Privacy in Wireless and Mobile Networks"
+    },
+    {
+      "大类": "网络与信息安全",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "SACMAT",
+      "全称": "ACM Symposium on Access Control Models and Technologies"
+    },
+    {
+      "大类": "网络与信息安全",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "DRM",
+      "全称": "ACM Workshop on Digital Rights Management"
+    },
+    {
+      "大类": "网络与信息安全",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "IH&MMSec",
+      "全称": "ACM Workshop on Information Hiding and Multimedia Security"
+    },
+    {
+      "大类": "网络与信息安全",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "ACNS",
+      "全称": "International Conference on Applied Cryptography and Network Security"
+    },
+    {
+      "大类": "网络与信息安全",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "AsiaCCS",
+      "全称": "ACM Asia Conference on Computer and Communications Security"
+    },
+    {
+      "大类": "网络与信息安全",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "ACISP",
+      "全称": "Australasia Conference on Information Security and Privacy"
+    },
+    {
+      "大类": "网络与信息安全",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "CT-RSA",
+      "全称": "The Cryptographer's Track at RSA Conference"
+    },
+    {
+      "大类": "网络与信息安全",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "DIMVA",
+      "全称": "Conference on Detection of Intrusions and Malware & Vulnerability Assessment"
+    },
+    {
+      "大类": "网络与信息安全",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "DFRWS",
+      "全称": "Digital Forensic Research Workshop"
+    },
+    {
+      "大类": "网络与信息安全",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "FC",
+      "全称": "Financial Cryptography and Data Security"
+    },
+    {
+      "大类": "网络与信息安全",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "TrustCom",
+      "全称": "IEEE International Conference on Trust, Security and Privacy in Computing and Communications"
+    },
+    {
+      "大类": "网络与信息安全",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "SEC",
+      "全称": "IFIP International Information Security Conference"
+    },
+    {
+      "大类": "网络与信息安全",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "IFIP WG 11.9",
+      "全称": "IFIP Working Group 11.9 International Conference on Digital Forensics"
+    },
+    {
+      "大类": "网络与信息安全",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "ISC",
+      "全称": "Information Security Conference"
+    },
+    {
+      "大类": "网络与信息安全",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "ICDF2C",
+      "全称": "International Conference on Digital Forensics & Cyber Crime"
+    },
+    {
+      "大类": "网络与信息安全",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "ICICS",
+      "全称": "International Conference on Information and Communications Security"
+    },
+    {
+      "大类": "网络与信息安全",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "SecureComm",
+      "全称": "International Conference on Security and Privacy in Communication Networks"
+    },
+    {
+      "大类": "网络与信息安全",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "NSPW",
+      "全称": "New Security Paradigms Workshop"
+    },
+    {
+      "大类": "网络与信息安全",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "PAM",
+      "全称": "Passive and Active Measurement Conference"
+    },
+    {
+      "大类": "网络与信息安全",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "PETS",
+      "全称": "Privacy Enhancing Technologies Symposium"
+    },
+    {
+      "大类": "网络与信息安全",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "SAC",
+      "全称": "Selected Areas in Cryptography"
+    },
+    {
+      "大类": "网络与信息安全",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "SOUPS",
+      "全称": "Symposium On Usable Privacy and Security"
+    },
+    {
+      "大类": "网络与信息安全",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "HotSec",
+      "全称": "USENIX Workshop on Hot Topics in Security"
+    },
+    {
+      "大类": "网络与信息安全",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "EuroS&P",
+      "全称": "IEEE European Symposium on Security and Privacy"
+    },
+    {
+      "大类": "网络与信息安全",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "Inscrypt",
+      "全称": "International Conference on Information Security and Cryptology"
+    },
+    {
+      "大类": "网络与信息安全",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "CODASPY",
+      "全称": "Conference on Data and Application Security and Privacy"
+    },
+    {
+      "大类": "网络与信息安全",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "BlockSys",
+      "全称": "International Conference on Blockchain, Artificial Intelligence, and Trustworthy Systems"
+    },
+    {
+      "大类": "网络与信息安全",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "CSCloud",
+      "全称": "International Conference on Cyber Security and Cloud Computing"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "期刊",
+      "CCF分级": "A",
+      "川大分级": "E",
+      "简称": "TOPLAS",
+      "全称": "ACM Transactions on Programming Languages and Systems"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "期刊",
+      "CCF分级": "A",
+      "川大分级": "D",
+      "简称": "TOSEM",
+      "全称": "ACM Transactions on Software Engineering and Methodology"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "期刊",
+      "CCF分级": "A",
+      "川大分级": "B",
+      "简称": "TSE",
+      "全称": "IEEE Transactions on Software Engineering"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "期刊",
+      "CCF分级": "A",
+      "川大分级": "C",
+      "简称": "TSC",
+      "全称": "IEEE Transactions on Services Computing"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "C",
+      "简称": "ASE",
+      "全称": "Automated Software Engineering"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "B",
+      "简称": "ESE",
+      "全称": "Empirical Software Engineering"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "D",
+      "简称": "IETS",
+      "全称": "IET Software"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "C",
+      "简称": "IST",
+      "全称": "Information and Software Technology"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "D",
+      "简称": "JFP",
+      "全称": "Journal of Functional Programming"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "E",
+      "简称": "",
+      "全称": "Journal of Software: Evolution and Process"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "C",
+      "简称": "JSS",
+      "全称": "Journal of Systems and Software"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "D",
+      "简称": "RE",
+      "全称": "Requirements Engineering"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "D",
+      "简称": "SCP",
+      "全称": "Science of Computer Programming"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "C",
+      "简称": "SoSyM",
+      "全称": "Software and Systems Modeling"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "D",
+      "简称": "STVR",
+      "全称": "Software Testing, Verification and Reliability"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "D",
+      "简称": "SPE",
+      "全称": "Software: Practice and Experience"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "C",
+      "简称": "CL",
+      "全称": "Computer Languages, Systems and Structures"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "E",
+      "简称": "IJSEKE",
+      "全称": "International Journal of Software Engineering and Knowledge Engineering"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "D",
+      "简称": "STTT",
+      "全称": "International Journal of Software Tools for Technology Transfer"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "E",
+      "简称": "JLAMP",
+      "全称": "Journal of Logical and Algebraic Methods in Programming"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "E",
+      "简称": "JWE",
+      "全称": "Journal of Web Engineering"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "SOCA",
+      "全称": "Service Oriented Computing and Applications"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "D",
+      "简称": "SQJ",
+      "全称": "Software Quality Journal"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "D",
+      "简称": "TPLP",
+      "全称": "Theory and Practice of Logic Programming"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "PACM PL",
+      "全称": "Proceedings of the ACM on Programming Languages"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "会议",
+      "CCF分级": "A",
+      "川大分级": "",
+      "简称": "PLDI",
+      "全称": "ACM SIGPLAN Conference on Programming Language Design and Implementation"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "会议",
+      "CCF分级": "A",
+      "川大分级": "",
+      "简称": "POPL",
+      "全称": "ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "会议",
+      "CCF分级": "A",
+      "川大分级": "",
+      "简称": "FSE",
+      "全称": "ACM International Conference on the Foundations of Software Engineering"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "会议",
+      "CCF分级": "A",
+      "川大分级": "",
+      "简称": "SOSP",
+      "全称": "ACM Symposium on Operating Systems Principles"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "会议",
+      "CCF分级": "A",
+      "川大分级": "",
+      "简称": "OOPSLA",
+      "全称": "Conference on Object-Oriented Programming Systems, Languages, and Applications"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "会议",
+      "CCF分级": "A",
+      "川大分级": "",
+      "简称": "ASE",
+      "全称": "International Conference on Automated Software Engineering"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "会议",
+      "CCF分级": "A",
+      "川大分级": "",
+      "简称": "ICSE",
+      "全称": "International Conference on Software Engineering"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "会议",
+      "CCF分级": "A",
+      "川大分级": "",
+      "简称": "ISSTA",
+      "全称": "International Symposium on Software Testing and Analysis"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "会议",
+      "CCF分级": "A",
+      "川大分级": "",
+      "简称": "OSDI",
+      "全称": "USENIX Symposium on Operating Systems Design and Implementation"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "会议",
+      "CCF分级": "A",
+      "川大分级": "",
+      "简称": "FM",
+      "全称": "International Symposium on Formal Methods"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "ECOOP",
+      "全称": "European Conference on Object-Oriented Programming"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "ETAPS",
+      "全称": "European Joint Conferences on Theory and Practice of Software"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "ICPC",
+      "全称": "IEEE International Conference on Program Comprehension"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "RE",
+      "全称": "IEEE International Requirements Engineering Conference"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "CAiSE",
+      "全称": "International Conference on Advanced Information Systems Engineering"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "ICFP",
+      "全称": "ACM SIGPLAN International Conference on Function Programming"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "LCTES",
+      "全称": "ACM SIGPLAN/SIGBED International Conference on Languages, Compilers and Tools for Embedded Systems"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "MoDELS",
+      "全称": "ACM/IEEE International Conference on Model Driven EngineeringLanguages and Systems"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "CP",
+      "全称": "International Conference on Principles and Practice of Constraint Programming"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "ICSOC",
+      "全称": "International Conference on Service Oriented Computing"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "SANER",
+      "全称": "IEEE International Conference on Software Analysis, Evolution,  and Reengineering"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "ICSME",
+      "全称": "International Conference on Software Maintenance and Evolution"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "VMCAI",
+      "全称": "International Conference on Verification, Model Checking and Abstract Interpretation"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "ICWS",
+      "全称": "IEEE International Conference on Web Services"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "Middleware",
+      "全称": "International Middleware Conference"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "SAS",
+      "全称": "International Static Analysis Symposium"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "ESEM",
+      "全称": "International Symposium on Empirical Software Engineering and Measurement"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "ISSRE",
+      "全称": "IEEE International Symposium on Software Reliability Engineering"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "HotOS",
+      "全称": "USENIX Workshop on Hot Topics in Operating Systems"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "CC",
+      "全称": "International Conference on Compiler Construction"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "PEPM",
+      "全称": "ACM SIGPLAN Workshop on Partial Evaluation and Program Manipulation"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "PASTE",
+      "全称": "ACMSIGPLAN-SIGSOFT Workshop on Program Analysis for Software Tools and Engineering"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "APLAS",
+      "全称": "Asian Symposium on Programming Languages and Systems"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "APSEC",
+      "全称": "Asia-Pacific Software Engineering Conference"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "EASE",
+      "全称": "International Conference on Evaluation and Assessment in Software Engineering"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "ICECCS",
+      "全称": "International Conference on Engineering of Complex Computer Systems"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "ICST",
+      "全称": "IEEE International Conference on Software Testing, Verification and Validation"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "ISPASS",
+      "全称": "IEEE International Symposium on Performance Analysis of Systems and Software"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "SCAM",
+      "全称": "IEEE International Working Conference on Source Code Analysis and Manipulation"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "COMPSAC",
+      "全称": "International Computer Software and Applications Conference"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "ICFEM",
+      "全称": "International Conference on Formal Engineering Methods"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "SSE",
+      "全称": "IEEE International Conference on Software Services Engineering"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "ICSSP",
+      "全称": "International Conference on Software and System Process"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "SEKE",
+      "全称": "International Conference on Software Engineering and Knowledge Engineering"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "QRS",
+      "全称": "International Conference on Software Quality, Reliability and Security"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "ICSR",
+      "全称": "International Conference on Software Reuse"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "ICWE",
+      "全称": "International Conference on Web Engineering"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "SPIN",
+      "全称": "International Symposium on Model Checking of Software"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "ATVA",
+      "全称": "International Symposium on Automated Technology for Verification and Analysis"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "LOPSTR",
+      "全称": "International Symposium on Logic-based Program Synthesis and Transformation"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "TASE",
+      "全称": "Theoretical Aspects of Software Engineering Conference"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "MSR",
+      "全称": "Mining Software Repositories"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "REFSQ",
+      "全称": "Requirements Engineering: Foundation for Software Quality"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "WICSA",
+      "全称": "Working IEEE/IFIP Conference on Software Architecture"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "Internetware",
+      "全称": "Asia-Pacific Symposium on Internetware"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "RV",
+      "全称": "International Conference on Runtime Verification"
+    },
+    {
+      "大类": "软件工程/系统软件/程序设计语言",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "MEMOCODE",
+      "全称": "International Conference on Formal Methods and Models for Co-Design"
+    },
+    {
+      "大类": "数据库/数据挖掘/内容检索",
+      "类型": "期刊",
+      "CCF分级": "A",
+      "川大分级": "D",
+      "简称": "TODS",
+      "全称": "ACM Transactions on Database Systems"
+    },
+    {
+      "大类": "数据库/数据挖掘/内容检索",
+      "类型": "期刊",
+      "CCF分级": "A",
+      "川大分级": "D",
+      "简称": "TOIS",
+      "全称": "ACM Transactions on Information Systems"
+    },
+    {
+      "大类": "数据库/数据挖掘/内容检索",
+      "类型": "期刊",
+      "CCF分级": "A",
+      "川大分级": "B",
+      "简称": "TKDE",
+      "全称": "IEEE Transactions on Knowledge and Data Engineering"
+    },
+    {
+      "大类": "数据库/数据挖掘/内容检索",
+      "类型": "期刊",
+      "CCF分级": "A",
+      "川大分级": "C",
+      "简称": "VLDBJ",
+      "全称": "The VLDB Journal"
+    },
+    {
+      "大类": "数据库/数据挖掘/内容检索",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "D",
+      "简称": "TKDD",
+      "全称": "ACM Transactions on Knowledge Discovery from Data"
+    },
+    {
+      "大类": "数据库/数据挖掘/内容检索",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "D",
+      "简称": "TWEB",
+      "全称": "ACM Transactions on the Web"
+    },
+    {
+      "大类": "数据库/数据挖掘/内容检索",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "C",
+      "简称": "AEI",
+      "全称": "Advanced Engineering Informatics"
+    },
+    {
+      "大类": "数据库/数据挖掘/内容检索",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "D",
+      "简称": "DKE",
+      "全称": "Data & Knowledge Engineering"
+    },
+    {
+      "大类": "数据库/数据挖掘/内容检索",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "D",
+      "简称": "DMKD",
+      "全称": "Data Mining and Knowledge Discovery"
+    },
+    {
+      "大类": "数据库/数据挖掘/内容检索",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "D",
+      "简称": "EJIS",
+      "全称": "European Journal of Information Systems"
+    },
+    {
+      "大类": "数据库/数据挖掘/内容检索",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "D",
+      "简称": "",
+      "全称": "GeoInformatica"
+    },
+    {
+      "大类": "数据库/数据挖掘/内容检索",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "B",
+      "简称": "IPM",
+      "全称": "Information Processing and Management"
+    },
+    {
+      "大类": "数据库/数据挖掘/内容检索",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "B",
+      "简称": "",
+      "全称": "Information Sciences"
+    },
+    {
+      "大类": "数据库/数据挖掘/内容检索",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "D",
+      "简称": "IS",
+      "全称": "Information Systems"
+    },
+    {
+      "大类": "数据库/数据挖掘/内容检索",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "C",
+      "简称": "JASIST",
+      "全称": "Journal of the Association for Information Science and Technology"
+    },
+    {
+      "大类": "数据库/数据挖掘/内容检索",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "C",
+      "简称": "JWS",
+      "全称": "Journal of Web Semantics"
+    },
+    {
+      "大类": "数据库/数据挖掘/内容检索",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "C",
+      "简称": "KAIS",
+      "全称": "Knowledge and Information Systems"
+    },
+    {
+      "大类": "数据库/数据挖掘/内容检索",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "DSE",
+      "全称": "Data Science and Engineering"
+    },
+    {
+      "大类": "数据库/数据挖掘/内容检索",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "E",
+      "简称": "DPD",
+      "全称": "Distributed and Parallel Databases"
+    },
+    {
+      "大类": "数据库/数据挖掘/内容检索",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "C",
+      "简称": "I&M",
+      "全称": "Information & Management"
+    },
+    {
+      "大类": "数据库/数据挖掘/内容检索",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "E",
+      "简称": "IPL",
+      "全称": "Information Processing Letters"
+    },
+    {
+      "大类": "数据库/数据挖掘/内容检索",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "C",
+      "简称": "（原IR）",
+      "全称": "Discover Computing （原 Information Retrieval Journal）"
+    },
+    {
+      "大类": "数据库/数据挖掘/内容检索",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "E",
+      "简称": "IJCIS",
+      "全称": "International Journal of Cooperative Information Systems"
+    },
+    {
+      "大类": "数据库/数据挖掘/内容检索",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "C",
+      "简称": "IJGIS",
+      "全称": "International Journal of Geographical Information Science"
+    },
+    {
+      "大类": "数据库/数据挖掘/内容检索",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "B",
+      "简称": "IJIS",
+      "全称": "International Journal of Intelligent Systems"
+    },
+    {
+      "大类": "数据库/数据挖掘/内容检索",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "IJKM",
+      "全称": "International Journal of Knowledge Management"
+    },
+    {
+      "大类": "数据库/数据挖掘/内容检索",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "D",
+      "简称": "IJSWIS",
+      "全称": "International Journal on Semantic Web and Information Systems"
+    },
+    {
+      "大类": "数据库/数据挖掘/内容检索",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "E",
+      "简称": "JCIS",
+      "全称": "Journal of Computer Information Systems"
+    },
+    {
+      "大类": "数据库/数据挖掘/内容检索",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "E",
+      "简称": "JDM",
+      "全称": "Journal of Database Management"
+    },
+    {
+      "大类": "数据库/数据挖掘/内容检索",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "JGITM",
+      "全称": "Journal of Global Information Technology Management"
+    },
+    {
+      "大类": "数据库/数据挖掘/内容检索",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "E",
+      "简称": "JIIS",
+      "全称": "Journal of Intelligent Information Systems"
+    },
+    {
+      "大类": "数据库/数据挖掘/内容检索",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "C",
+      "简称": "JSIS",
+      "全称": "The Journal of Strategic Information Systems"
+    },
+    {
+      "大类": "数据库/数据挖掘/内容检索",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "E",
+      "简称": "TIST",
+      "全称": "ACM Transactions on Intelligent Systems and Technology"
+    },
+    {
+      "大类": "数据库/数据挖掘/内容检索",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "TORS",
+      "全称": "ACM Transactions on Recommender Systems"
+    },
+    {
+      "大类": "数据库/数据挖掘/内容检索",
+      "类型": "会议",
+      "CCF分级": "A",
+      "川大分级": "",
+      "简称": "SIGMOD",
+      "全称": "ACM SIGMOD Conference"
+    },
+    {
+      "大类": "数据库/数据挖掘/内容检索",
+      "类型": "会议",
+      "CCF分级": "A",
+      "川大分级": "",
+      "简称": "SIGKDD",
+      "全称": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining"
+    },
+    {
+      "大类": "数据库/数据挖掘/内容检索",
+      "类型": "会议",
+      "CCF分级": "A",
+      "川大分级": "",
+      "简称": "ICDE",
+      "全称": "IEEE International Conference on Data Engineering"
+    },
+    {
+      "大类": "数据库/数据挖掘/内容检索",
+      "类型": "会议",
+      "CCF分级": "A",
+      "川大分级": "",
+      "简称": "SIGIR",
+      "全称": "International ACM SIGIR Conference on Research and Development in Information Retrieval"
+    },
+    {
+      "大类": "数据库/数据挖掘/内容检索",
+      "类型": "会议",
+      "CCF分级": "A",
+      "川大分级": "",
+      "简称": "VLDB",
+      "全称": "International Conference on Very Large Data Bases"
+    },
+    {
+      "大类": "数据库/数据挖掘/内容检索",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "CIKM",
+      "全称": "ACM International Conference on Information and Knowledge Management"
+    },
+    {
+      "大类": "数据库/数据挖掘/内容检索",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "WSDM",
+      "全称": "ACM International Conference on Web Search and Data Mining"
+    },
+    {
+      "大类": "数据库/数据挖掘/内容检索",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "PODS",
+      "全称": "ACM SIGMOD-SIGACT-SIGAI Symposium on Principles of Database Systems"
+    },
+    {
+      "大类": "数据库/数据挖掘/内容检索",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "DASFAA",
+      "全称": "International Conference on Database Systems for Advanced Applications"
+    },
+    {
+      "大类": "数据库/数据挖掘/内容检索",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "ECML-PKDD",
+      "全称": "European Conference on Machine Learning  and Principles and Practice of Knowledge Discovery in Databases"
+    },
+    {
+      "大类": "数据库/数据挖掘/内容检索",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "ISWC",
+      "全称": "IEEE International Semantic Web Conference"
+    },
+    {
+      "大类": "数据库/数据挖掘/内容检索",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "ICDM",
+      "全称": "IEEE International Conference on Data Mining"
+    },
+    {
+      "大类": "数据库/数据挖掘/内容检索",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "ICDT",
+      "全称": "International Conference on Database Theory"
+    },
+    {
+      "大类": "数据库/数据挖掘/内容检索",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "EDBT",
+      "全称": "International Conference on Extending Database Technology"
+    },
+    {
+      "大类": "数据库/数据挖掘/内容检索",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "CIDR",
+      "全称": "Conference on Innovative Data Systems Research"
+    },
+    {
+      "大类": "数据库/数据挖掘/内容检索",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "SDM",
+      "全称": "SIAM International Conference on Data Mining"
+    },
+    {
+      "大类": "数据库/数据挖掘/内容检索",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "RecSys",
+      "全称": "ACM Conference on Recommender Systems"
+    },
+    {
+      "大类": "数据库/数据挖掘/内容检索",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "WISE",
+      "全称": "Web Information Systems Engineering Conference"
+    },
+    {
+      "大类": "数据库/数据挖掘/内容检索",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "APWeb",
+      "全称": "Asia Pacific Web Conference"
+    },
+    {
+      "大类": "数据库/数据挖掘/内容检索",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "DEXA",
+      "全称": "International Conference on Database and Expert System Applications"
+    },
+    {
+      "大类": "数据库/数据挖掘/内容检索",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "ECIR",
+      "全称": "European Conference on Information Retrieval"
+    },
+    {
+      "大类": "数据库/数据挖掘/内容检索",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "ESWC",
+      "全称": "Extended Semantic Web Conference"
+    },
+    {
+      "大类": "数据库/数据挖掘/内容检索",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "WebDB",
+      "全称": "International Workshop on Web and  Databases"
+    },
+    {
+      "大类": "数据库/数据挖掘/内容检索",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "ER",
+      "全称": "International Conference on Conceptual Modeling"
+    },
+    {
+      "大类": "数据库/数据挖掘/内容检索",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "MDM",
+      "全称": "International Conference on Mobile Data Management"
+    },
+    {
+      "大类": "数据库/数据挖掘/内容检索",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "SSDBM",
+      "全称": "International Conference on Scientific and Statistical Database Management"
+    },
+    {
+      "大类": "数据库/数据挖掘/内容检索",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "WAIM",
+      "全称": "International Conference on Web Age Information Management"
+    },
+    {
+      "大类": "数据库/数据挖掘/内容检索",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "SSTD",
+      "全称": "International Symposium on Spatial and Temporal Databases"
+    },
+    {
+      "大类": "数据库/数据挖掘/内容检索",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "PAKDD",
+      "全称": "Pacific-Asia Conference on Knowledge Discovery and Data Mining"
+    },
+    {
+      "大类": "数据库/数据挖掘/内容检索",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "ADMA",
+      "全称": "International Conference on Advanced Data Mining and Applications"
+    },
+    {
+      "大类": "数据库/数据挖掘/内容检索",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "WISA",
+      "全称": "Web Information Systems and Applications"
+    },
+    {
+      "大类": "计算机科学理论",
+      "类型": "期刊",
+      "CCF分级": "A",
+      "川大分级": "C",
+      "简称": "TIT",
+      "全称": "IEEE Transactions on Information Theory"
+    },
+    {
+      "大类": "计算机科学理论",
+      "类型": "期刊",
+      "CCF分级": "A",
+      "川大分级": "D",
+      "简称": "IANDC",
+      "全称": "Information and Computation"
+    },
+    {
+      "大类": "计算机科学理论",
+      "类型": "期刊",
+      "CCF分级": "A",
+      "川大分级": "C",
+      "简称": "SICOMP",
+      "全称": "SIAM Journal on Computing"
+    },
+    {
+      "大类": "计算机科学理论",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "D",
+      "简称": "TALG",
+      "全称": "ACM Transactions on Algorithms"
+    },
+    {
+      "大类": "计算机科学理论",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "E",
+      "简称": "TOCL",
+      "全称": "ACM Transactions on Computational Logic"
+    },
+    {
+      "大类": "计算机科学理论",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "C",
+      "简称": "TOMS",
+      "全称": "ACM Transactions on Mathematical Software"
+    },
+    {
+      "大类": "计算机科学理论",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "D",
+      "简称": "Algorithmica",
+      "全称": "Algorithmica"
+    },
+    {
+      "大类": "计算机科学理论",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "D",
+      "简称": "CC",
+      "全称": "Computational Complexity"
+    },
+    {
+      "大类": "计算机科学理论",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "D",
+      "简称": "FAC",
+      "全称": "Formal Aspects of Computing"
+    },
+    {
+      "大类": "计算机科学理论",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "D",
+      "简称": "FMSD",
+      "全称": "Formal Methods in System Design"
+    },
+    {
+      "大类": "计算机科学理论",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "D",
+      "简称": "INFORMS",
+      "全称": "INFORMS Journal on Computing"
+    },
+    {
+      "大类": "计算机科学理论",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "D",
+      "简称": "JCSS",
+      "全称": "Journal of Computer and System Sciences"
+    },
+    {
+      "大类": "计算机科学理论",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "D",
+      "简称": "JGO",
+      "全称": "Journal of Global Optimization"
+    },
+    {
+      "大类": "计算机科学理论",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "D",
+      "简称": "JSC",
+      "全称": "Journal of Symbolic Computation"
+    },
+    {
+      "大类": "计算机科学理论",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "E",
+      "简称": "MSCS",
+      "全称": "Mathematical Structures in Computer Science"
+    },
+    {
+      "大类": "计算机科学理论",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "E",
+      "简称": "TCS",
+      "全称": "Theoretical Computer Science"
+    },
+    {
+      "大类": "计算机科学理论",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "D",
+      "简称": "ACTA",
+      "全称": "Acta Informatica"
+    },
+    {
+      "大类": "计算机科学理论",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "C",
+      "简称": "APAL",
+      "全称": "Annals of Pure and Applied Logic"
+    },
+    {
+      "大类": "计算机科学理论",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "D",
+      "简称": "DAM",
+      "全称": "Discrete Applied Mathematics"
+    },
+    {
+      "大类": "计算机科学理论",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "E",
+      "简称": "FUIN",
+      "全称": "Fundamenta Informaticae"
+    },
+    {
+      "大类": "计算机科学理论",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "E",
+      "简称": "IPL",
+      "全称": "Information Processing Letters"
+    },
+    {
+      "大类": "计算机科学理论",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "D",
+      "简称": "JCOMPLEXI TY",
+      "全称": "Journal of Complexity"
+    },
+    {
+      "大类": "计算机科学理论",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "E",
+      "简称": "LOGCOM",
+      "全称": "Journal of Logic and Computation"
+    },
+    {
+      "大类": "计算机科学理论",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "D",
+      "简称": "JSL",
+      "全称": "The Journal of Symbolic Logic"
+    },
+    {
+      "大类": "计算机科学理论",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "E",
+      "简称": "LMCS",
+      "全称": "Logical Methods in Computer Science"
+    },
+    {
+      "大类": "计算机科学理论",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "D",
+      "简称": "SIDMA",
+      "全称": "SIAM Journal on Discrete Mathematics"
+    },
+    {
+      "大类": "计算机科学理论",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "D",
+      "简称": "",
+      "全称": "Theory of Computing Systems"
+    },
+    {
+      "大类": "计算机科学理论",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "TQC",
+      "全称": "ACM Transactions in Quantum Computing"
+    },
+    {
+      "大类": "计算机科学理论",
+      "类型": "会议",
+      "CCF分级": "A",
+      "川大分级": "",
+      "简称": "STOC",
+      "全称": "ACM Symposium on the Theory of Computing"
+    },
+    {
+      "大类": "计算机科学理论",
+      "类型": "会议",
+      "CCF分级": "A",
+      "川大分级": "",
+      "简称": "SODA",
+      "全称": "ACM-SIAM Symposium on Discrete Algorithms"
+    },
+    {
+      "大类": "计算机科学理论",
+      "类型": "会议",
+      "CCF分级": "A",
+      "川大分级": "",
+      "简称": "CAV",
+      "全称": "International Conference on Computer Aided Verification"
+    },
+    {
+      "大类": "计算机科学理论",
+      "类型": "会议",
+      "CCF分级": "A",
+      "川大分级": "",
+      "简称": "FOCS",
+      "全称": "IEEE Annual Symposium on Foundations of Computer Science"
+    },
+    {
+      "大类": "计算机科学理论",
+      "类型": "会议",
+      "CCF分级": "A",
+      "川大分级": "",
+      "简称": "LICS",
+      "全称": "ACM/IEEE Symposium on Logic in Computer Science"
+    },
+    {
+      "大类": "计算机科学理论",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "SoCG",
+      "全称": "International Symposium on Computational Geometry"
+    },
+    {
+      "大类": "计算机科学理论",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "ESA",
+      "全称": "European Symposium on Algorithms"
+    },
+    {
+      "大类": "计算机科学理论",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "CCC",
+      "全称": "Conference on Computational Complexity"
+    },
+    {
+      "大类": "计算机科学理论",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "ICALP",
+      "全称": "International Colloquium on Automata, Languages and Programming"
+    },
+    {
+      "大类": "计算机科学理论",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "CADE",
+      "全称": "Conference on Automated Deduction"
+    },
+    {
+      "大类": "计算机科学理论",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "CONCUR",
+      "全称": "International Conference on Concurrency Theory"
+    },
+    {
+      "大类": "计算机科学理论",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "HSCC",
+      "全称": "International Conference on Hybrid Systems: Computation and Control"
+    },
+    {
+      "大类": "计算机科学理论",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "SAT",
+      "全称": "International Conference on Theory and Applications of Satisfiability Testing"
+    },
+    {
+      "大类": "计算机科学理论",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "COCOON",
+      "全称": "International Computing and Combinatorics Conference"
+    },
+    {
+      "大类": "计算机科学理论",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "FMCAD",
+      "全称": "Formal Methods in Computer-Aided Design"
+    },
+    {
+      "大类": "计算机科学理论",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "CSL",
+      "全称": "Computer Science Logic"
+    },
+    {
+      "大类": "计算机科学理论",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "FSTTCS",
+      "全称": "Foundations of Software Technology and Theoretical Computer Science"
+    },
+    {
+      "大类": "计算机科学理论",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "DSAA",
+      "全称": "IEEE International Conference on Data Science and Advanced Analytics"
+    },
+    {
+      "大类": "计算机科学理论",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "ICTAC",
+      "全称": "International Colloquium on Theoretical Aspects of Computing"
+    },
+    {
+      "大类": "计算机科学理论",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "IPCO",
+      "全称": "International Conference on Integer Programming and Combinatorial Optimization"
+    },
+    {
+      "大类": "计算机科学理论",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "FSCD （原RTA）",
+      "全称": "International Conference on Formal Structures for Computation and Deduction"
+    },
+    {
+      "大类": "计算机科学理论",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "ISAAC",
+      "全称": "International Symposium on Algorithms and Computation"
+    },
+    {
+      "大类": "计算机科学理论",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "MFCS",
+      "全称": "International Conference on Mathematical Foundations of Computer Science"
+    },
+    {
+      "大类": "计算机科学理论",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "STACS",
+      "全称": "Symposium on Theoretical Aspects of Computer Science"
+    },
+    {
+      "大类": "计算机科学理论",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "SETTA",
+      "全称": "International Symposium on Software Engineering: Theories, Tools, and Applications"
+    },
+    {
+      "大类": "计算机图形学与多媒体",
+      "类型": "期刊",
+      "CCF分级": "A",
+      "川大分级": "B",
+      "简称": "TOG",
+      "全称": "ACM Transactions on Graphics"
+    },
+    {
+      "大类": "计算机图形学与多媒体",
+      "类型": "期刊",
+      "CCF分级": "A",
+      "川大分级": "B",
+      "简称": "TIP",
+      "全称": "IEEE Transactions on Image Processing"
+    },
+    {
+      "大类": "计算机图形学与多媒体",
+      "类型": "期刊",
+      "CCF分级": "A",
+      "川大分级": "B",
+      "简称": "TVCG",
+      "全称": "IEEE Transactions on Visualization and Computer Graphics"
+    },
+    {
+      "大类": "计算机图形学与多媒体",
+      "类型": "期刊",
+      "CCF分级": "A",
+      "川大分级": "B",
+      "简称": "TMM",
+      "全称": "IEEE Transactions on Multimedia"
+    },
+    {
+      "大类": "计算机图形学与多媒体",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "D",
+      "简称": "TOMM",
+      "全称": "ACM Transactions on Multimedia Computing, Communications and Applications"
+    },
+    {
+      "大类": "计算机图形学与多媒体",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "D",
+      "简称": "CAGD",
+      "全称": "Computer Aided Geometric Design"
+    },
+    {
+      "大类": "计算机图形学与多媒体",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "D",
+      "简称": "CGF",
+      "全称": "Computer Graphics Forum"
+    },
+    {
+      "大类": "计算机图形学与多媒体",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "C",
+      "简称": "CAD",
+      "全称": "Computer-Aided Design"
+    },
+    {
+      "大类": "计算机图形学与多媒体",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "B",
+      "简称": "TCSVT",
+      "全称": "IEEE Transactions on Circuits and Systems for Video Technology"
+    },
+    {
+      "大类": "计算机图形学与多媒体",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "D",
+      "简称": "JASA",
+      "全称": "The Journal of the Acoustical Society of America"
+    },
+    {
+      "大类": "计算机图形学与多媒体",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "C",
+      "简称": "SIIMS",
+      "全称": "SIAM Journal on Imaging Sciences"
+    },
+    {
+      "大类": "计算机图形学与多媒体",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "D",
+      "简称": "SPECOM",
+      "全称": "Speech Communication"
+    },
+    {
+      "大类": "计算机图形学与多媒体",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "CVMJ",
+      "全称": "Computational Visual Media"
+    },
+    {
+      "大类": "计算机图形学与多媒体",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "E",
+      "简称": "CGTA",
+      "全称": "Computational Geometry: Theory and Applications"
+    },
+    {
+      "大类": "计算机图形学与多媒体",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "E",
+      "简称": "CAVW",
+      "全称": "Computer animation & virtual worlds"
+    },
+    {
+      "大类": "计算机图形学与多媒体",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "E",
+      "简称": "C&G",
+      "全称": "Computers & Graphics"
+    },
+    {
+      "大类": "计算机图形学与多媒体",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "D",
+      "简称": "DCG",
+      "全称": "Discrete & Computational Geometry"
+    },
+    {
+      "大类": "计算机图形学与多媒体",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "B",
+      "简称": "SPL",
+      "全称": "IEEE Signal Processing Letters"
+    },
+    {
+      "大类": "计算机图形学与多媒体",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "D",
+      "简称": "IET-IPR",
+      "全称": "IET Image Processing"
+    },
+    {
+      "大类": "计算机图形学与多媒体",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "D",
+      "简称": "JVCIR",
+      "全称": "Journal of Visual Communication and Image  Representation"
+    },
+    {
+      "大类": "计算机图形学与多媒体",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "E",
+      "简称": "MS",
+      "全称": "Multimedia Systems"
+    },
+    {
+      "大类": "计算机图形学与多媒体",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "D",
+      "简称": "MTA",
+      "全称": "Multimedia Tools and Applications"
+    },
+    {
+      "大类": "计算机图形学与多媒体",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "B",
+      "简称": "SIGPRO",
+      "全称": "Signal Processing"
+    },
+    {
+      "大类": "计算机图形学与多媒体",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "C",
+      "简称": "IMAGE",
+      "全称": "Signal Processing: Image Communication"
+    },
+    {
+      "大类": "计算机图形学与多媒体",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "D",
+      "简称": "TVC",
+      "全称": "The Visual Computer"
+    },
+    {
+      "大类": "计算机图形学与多媒体",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "VI",
+      "全称": "Visual Informatics"
+    },
+    {
+      "大类": "计算机图形学与多媒体",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "VRIH",
+      "全称": "Virtual Reality & Intelligent Hardware"
+    },
+    {
+      "大类": "计算机图形学与多媒体",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "E",
+      "简称": "GMOD",
+      "全称": "Graphical Models"
+    },
+    {
+      "大类": "计算机图形学与多媒体",
+      "类型": "会议",
+      "CCF分级": "A",
+      "川大分级": "",
+      "简称": "ACM MM",
+      "全称": "ACM International Conference on Multimedia"
+    },
+    {
+      "大类": "计算机图形学与多媒体",
+      "类型": "会议",
+      "CCF分级": "A",
+      "川大分级": "",
+      "简称": "SIGGRAPH",
+      "全称": "ACM Special Interest Group on Computer Graphics"
+    },
+    {
+      "大类": "计算机图形学与多媒体",
+      "类型": "会议",
+      "CCF分级": "A",
+      "川大分级": "",
+      "简称": "VR",
+      "全称": "IEEE Conference on Virtual Reality and 3D User Interfaces （原 IEEE Virtual Reality）"
+    },
+    {
+      "大类": "计算机图形学与多媒体",
+      "类型": "会议",
+      "CCF分级": "A",
+      "川大分级": "",
+      "简称": "IEEE VIS",
+      "全称": "IEEE Visualization Conference"
+    },
+    {
+      "大类": "计算机图形学与多媒体",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "ICMR",
+      "全称": "ACM SIGMM International Conference on Multimedia Retrieval"
+    },
+    {
+      "大类": "计算机图形学与多媒体",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "I3D",
+      "全称": "ACM SIGGRAPH Symposium on Interactive 3D Graphics and Games"
+    },
+    {
+      "大类": "计算机图形学与多媒体",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "SCA",
+      "全称": "ACM SIGGRAPH/Eurographics Symposium on Computer Animation"
+    },
+    {
+      "大类": "计算机图形学与多媒体",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "DCC",
+      "全称": "Data Compression Conference"
+    },
+    {
+      "大类": "计算机图形学与多媒体",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "Eurographics",
+      "全称": "Annual Conference of the European Association for Computer Graphics"
+    },
+    {
+      "大类": "计算机图形学与多媒体",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "EuroVis",
+      "全称": "Eurographics Conference on Visualization"
+    },
+    {
+      "大类": "计算机图形学与多媒体",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "SGP",
+      "全称": "Eurographics Symposium on Geometry Processing"
+    },
+    {
+      "大类": "计算机图形学与多媒体",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "EGSR",
+      "全称": "Eurographics Symposium on Rendering"
+    },
+    {
+      "大类": "计算机图形学与多媒体",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "ICASSP",
+      "全称": "IEEE International Conference on Acoustics, Speech and Signal Processing"
+    },
+    {
+      "大类": "计算机图形学与多媒体",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "ICME",
+      "全称": "IEEE International Conference on  Multimedia & Expo"
+    },
+    {
+      "大类": "计算机图形学与多媒体",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "ISMAR",
+      "全称": "International Symposium on Mixed and Augmented Reality"
+    },
+    {
+      "大类": "计算机图形学与多媒体",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "PG",
+      "全称": "Pacific Conference onComputer Graphics and Applications"
+    },
+    {
+      "大类": "计算机图形学与多媒体",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "SPM",
+      "全称": "Symposium on Solid and Physical Modeling"
+    },
+    {
+      "大类": "计算机图形学与多媒体",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "INTER-SPEECH",
+      "全称": "Conference of the International Speech Communication Association"
+    },
+    {
+      "大类": "计算机图形学与多媒体",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "VRST",
+      "全称": "ACM Symposium on Virtual Reality Software and Technology"
+    },
+    {
+      "大类": "计算机图形学与多媒体",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "CASAXR （原CASA）",
+      "全称": "International Conference on Computer Animation, Social Agents, and Extended Reality （原 International Conference on Computer Animation and Social Agents）"
+    },
+    {
+      "大类": "计算机图形学与多媒体",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "CGI",
+      "全称": "Computer Graphics International"
+    },
+    {
+      "大类": "计算机图形学与多媒体",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "GMP",
+      "全称": "Geometric Modeling and Processing"
+    },
+    {
+      "大类": "计算机图形学与多媒体",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "PacificVis",
+      "全称": "IEEE Pacific Visualization Symposium"
+    },
+    {
+      "大类": "计算机图形学与多媒体",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "3DV",
+      "全称": "International Conference on 3D Vision"
+    },
+    {
+      "大类": "计算机图形学与多媒体",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "CAD/Graphics",
+      "全称": "International Conference on Computer-Aided Design and Computer Graphics Processing"
+    },
+    {
+      "大类": "计算机图形学与多媒体",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "ICIP",
+      "全称": "IEEE International Conference on Image Processing"
+    },
+    {
+      "大类": "计算机图形学与多媒体",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "MMM",
+      "全称": "International Conference on Multimedia Modeling"
+    },
+    {
+      "大类": "计算机图形学与多媒体",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "MMAsia",
+      "全称": "ACM Multimedia Asia"
+    },
+    {
+      "大类": "计算机图形学与多媒体",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "SMI",
+      "全称": "Shape Modeling International"
+    },
+    {
+      "大类": "计算机图形学与多媒体",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "CVM",
+      "全称": "Computational Visual Media"
+    },
+    {
+      "大类": "计算机图形学与多媒体",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "PRCV",
+      "全称": "Chinese Conference on Pattern Recognition and Computer Vision"
+    },
+    {
+      "大类": "计算机图形学与多媒体",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "ICIG",
+      "全称": "International Conference on Image and Graphics"
+    },
+    {
+      "大类": "计算机图形学与多媒体",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "NCMMSC",
+      "全称": "National Conference on Man-Machine Speech Communication"
+    },
+    {
+      "大类": "计算机图形学与多媒体",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "ASRU",
+      "全称": "Automatic Speech Recognition and Understanding Workshop"
+    },
+    {
+      "大类": "计算机图形学与多媒体",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "SLT",
+      "全称": "Spoken Language Technology"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "期刊",
+      "CCF分级": "A",
+      "川大分级": "C",
+      "简称": "AI",
+      "全称": "Artificial Intelligence"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "期刊",
+      "CCF分级": "A",
+      "川大分级": "B",
+      "简称": "TPAMI",
+      "全称": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "期刊",
+      "CCF分级": "A",
+      "川大分级": "C",
+      "简称": "IJCV",
+      "全称": "International Journal of Computer Vision"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "期刊",
+      "CCF分级": "A",
+      "川大分级": "D",
+      "简称": "JMLR",
+      "全称": "Journal of Machine Learning Research"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "E",
+      "简称": "TAP",
+      "全称": "ACM Transactions on Applied Perception"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "D",
+      "简称": "AAMAS",
+      "全称": "Autonomous Agents and Multi-Agent Systems"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "E",
+      "简称": "",
+      "全称": "Computational Linguistics"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "D",
+      "简称": "CVIU",
+      "全称": "Computer Vision and Image Understanding"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "D",
+      "简称": "DKE",
+      "全称": "Data & Knowledge Engineering"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "D",
+      "简称": "",
+      "全称": "Evolutionary Computation"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "C",
+      "简称": "TAC",
+      "全称": "IEEE Transactions on Affective Computing"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "B",
+      "简称": "TASLP",
+      "全称": "IEEE Transactions on Audio, Speech and Language Processing （原 IEEE/ACM Transactions on Audio, Speech and Language Processing）"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "B",
+      "简称": "",
+      "全称": "IEEE Transactions on Cybernetics"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "B",
+      "简称": "TEC",
+      "全称": "IEEE Transactions on Evolutionary Computation"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "B",
+      "简称": "TFS",
+      "全称": "IEEE Transactions on Fuzzy Systems"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "B",
+      "简称": "TNNLS",
+      "全称": "IEEE Transactions on Neural Networks and learning systems"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "D",
+      "简称": "IJAR",
+      "全称": "International Journal of Approximate Reasoning"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "D",
+      "简称": "JAIR",
+      "全称": "Journal of Artificial Intelligence Research"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "E",
+      "简称": "",
+      "全称": "Journal of Automated Reasoning"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "C",
+      "简称": "JSLHR",
+      "全称": "Journal of Speech, Language, and Hearing Research"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "D",
+      "简称": "",
+      "全称": "Machine Learning"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "E",
+      "简称": "",
+      "全称": "Neural Computation"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "C",
+      "简称": "",
+      "全称": "Neural Networks"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "B",
+      "简称": "PR",
+      "全称": "Pattern Recognition"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "TACL",
+      "全称": "Transactions of the Association for Computational Linguistics"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "E",
+      "简称": "TALLIP",
+      "全称": "ACM Transactions on Asian and Low-Resource Language Information Processing"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "C",
+      "简称": "",
+      "全称": "Applied Intelligence"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "C",
+      "简称": "AIM",
+      "全称": "Artificial Intelligence in Medicine"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "E",
+      "简称": "",
+      "全称": "Artificial Life"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "E",
+      "简称": "",
+      "全称": "Computational Intelligence"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "C",
+      "简称": "",
+      "全称": "Computer Speech & Language"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "E",
+      "简称": "",
+      "全称": "Connection Science"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "C",
+      "简称": "DSS",
+      "全称": "Decision Support Systems"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "C",
+      "简称": "EAAI",
+      "全称": "Engineering Applications of Artificial Intelligence"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "E",
+      "简称": "",
+      "全称": "Expert Systems"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "C",
+      "简称": "ESWA",
+      "全称": "Expert Systems with Applications"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "B",
+      "简称": "",
+      "全称": "Fuzzy Sets and Systems"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "TG",
+      "全称": "IEEE Transactions on Games"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "E",
+      "简称": "IET-CVI",
+      "全称": "IET Computer Vision"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "D",
+      "简称": "",
+      "全称": "IET Signal Processing"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "D",
+      "简称": "IVC",
+      "全称": "Image and Vision Computing"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "E",
+      "简称": "IDA",
+      "全称": "Intelligent Data Analysis"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "IJCIA",
+      "全称": "International Journal of Computational Intelligence and Applications"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "B",
+      "简称": "IJIS",
+      "全称": "International Journal of Intelligent Systems"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "B",
+      "简称": "IJNS",
+      "全称": "International Journal of Neural Systems"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "E",
+      "简称": "IJPRAI",
+      "全称": "International Journal of Pattern Recognition and Artificial Intelligence"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "E",
+      "简称": "IJUFKS",
+      "全称": "International Journal of Uncertainty, Fuzziness and Knowledge-Based Systems"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "E",
+      "简称": "IJDAR",
+      "全称": "International Journal on Document Analysis and Recognition"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "E",
+      "简称": "JETAI",
+      "全称": "Journal of Experimental and Theoretical Artificial Intelligence"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "B",
+      "简称": "KBS",
+      "全称": "Knowledge-Based Systems"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "",
+      "全称": "Machine Translation"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "E",
+      "简称": "",
+      "全称": "Machine Vision and Applications"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "E",
+      "简称": "",
+      "全称": "Natural Computing"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "E",
+      "简称": "NLE",
+      "全称": "Natural Language Engineering"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "D",
+      "简称": "NCA",
+      "全称": "Neural Computing and Applications"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "E",
+      "简称": "NPL",
+      "全称": "Neural Processing Letters"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "B",
+      "简称": "",
+      "全称": "Neurocomputing"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "E",
+      "简称": "PAA",
+      "全称": "Pattern Analysis and Applications"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "C",
+      "简称": "PRL",
+      "全称": "Pattern Recognition Letters"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "C",
+      "简称": "",
+      "全称": "Soft Computing"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "WI",
+      "全称": "Web Intelligence"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "TIIS",
+      "全称": "ACM Transactions on Interactive Intelligent Systems"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "TELO",
+      "全称": "ACM Transactions on Evolutionary Learning and Optimization"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "JATS",
+      "全称": "ACM Journal on Autonomous Transportation Systems"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "会议",
+      "CCF分级": "A",
+      "川大分级": "",
+      "简称": "AAAI",
+      "全称": "AAAI Conference on Artificial Intelligence"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "会议",
+      "CCF分级": "A",
+      "川大分级": "",
+      "简称": "NeurIPS",
+      "全称": "Conference on Neural Information Processing Systems"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "会议",
+      "CCF分级": "A",
+      "川大分级": "",
+      "简称": "ACL",
+      "全称": "Annual Meeting of the Association for Computational Linguistics"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "会议",
+      "CCF分级": "A",
+      "川大分级": "",
+      "简称": "CVPR",
+      "全称": "IEEE/CVF Computer Vision and Pattern Recognition Conference"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "会议",
+      "CCF分级": "A",
+      "川大分级": "",
+      "简称": "ICCV",
+      "全称": "International Conference on Computer Vision"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "会议",
+      "CCF分级": "A",
+      "川大分级": "",
+      "简称": "ICML",
+      "全称": "International Conference on Machine Learning"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "会议",
+      "CCF分级": "A",
+      "川大分级": "",
+      "简称": "ICLR",
+      "全称": "International Conference on Learning Representations"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "COLT",
+      "全称": "Annual Conference on Computational Learning Theory"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "EMNLP",
+      "全称": "Conference on Empirical  Methods in Natural Language Processing"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "ECAI",
+      "全称": "European Conference on Artificial Intelligence"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "ECCV",
+      "全称": "European Conference on Computer Vision"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "ICRA",
+      "全称": "IEEE International Conference on Robotics and Automation"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "ICAPS",
+      "全称": "International Conference on Automated Planning and Scheduling"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "ICCBR",
+      "全称": "International Conference on Case-Based Reasoning"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "COLING",
+      "全称": "International Conference on Computational Linguistics"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "KR",
+      "全称": "International Conference on Principles of Knowledge Representation and Reasoning"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "UAI",
+      "全称": "Conference on Uncertainty in Artificial Intelligence"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "AAMAS",
+      "全称": "International Joint Conference on Autonomous Agents and Multi-agent Systems"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "PPSN",
+      "全称": "Parallel Problem Solving from  Nature"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "NAACL",
+      "全称": "North American Chapter of the Association for Computational Linguistics"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "IJCAI",
+      "全称": "International Joint Conference on Artificial Intelligence"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "AISTATS",
+      "全称": "International Conference on Artificial Intelligence and Statistics"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "ACCV",
+      "全称": "Asian Conference on Computer Vision"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "ACML",
+      "全称": "Asian Conference on Machine Learning"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "BMVC",
+      "全称": "British Machine Vision Conference"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "NLPCC",
+      "全称": "CCF International Conference on Natural Language Processing and Chinese Computing"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "CoNLL",
+      "全称": "Conference on Computational Natural Language Learning"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "GECCO",
+      "全称": "Genetic and Evolutionary Computation Conference"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "ICTAI",
+      "全称": "IEEE International Conference on Tools with Artificial Intelligence"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "IROS",
+      "全称": "IEEE\\RSJ International Conference on Intelligent Robots and Systems"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "ALT",
+      "全称": "International Conference on Algorithmic Learning Theory"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "ICANN",
+      "全称": "International Conference on Artificial Neural Networks"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "FG",
+      "全称": "IEEE International Conference on Automatic Face and Gesture Recognition"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "ICDAR",
+      "全称": "International Conference on Document Analysis and Recognition"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "ILP",
+      "全称": "International Conference on Inductive Logic Programming"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "KSEM",
+      "全称": "International conference on Knowledge Science, Engineering and Management"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "ICONIP",
+      "全称": "International Conference on Neural Information Processing"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "ICPR",
+      "全称": "International Conference on Pattern Recognition"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "IJCB",
+      "全称": "International Joint Conference on Biometrics"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "IJCNN",
+      "全称": "International Joint Conference on Neural Networks"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "PRICAI",
+      "全称": "Pacific Rim International Conference on Artificial Intelligence"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "IEEE CEC",
+      "全称": "Congress on Evolutionary Computation"
+    },
+    {
+      "大类": "人工智能",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "DAI",
+      "全称": "International Conference on Distributed Artificial Intelligence"
+    },
+    {
+      "大类": "人机交互与普适计算",
+      "类型": "期刊",
+      "CCF分级": "A",
+      "川大分级": "C",
+      "简称": "TOCHI",
+      "全称": "ACM Transactions on Computer-Human Interaction"
+    },
+    {
+      "大类": "人机交互与普适计算",
+      "类型": "期刊",
+      "CCF分级": "A",
+      "川大分级": "D",
+      "简称": "IJHCS",
+      "全称": "International Journal of Human-Computer Studies"
+    },
+    {
+      "大类": "人机交互与普适计算",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "D",
+      "简称": "CSCW",
+      "全称": "Computer Supported Cooperative Work"
+    },
+    {
+      "大类": "人机交互与普适计算",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "D",
+      "简称": "HCI",
+      "全称": "Human-Computer Interaction"
+    },
+    {
+      "大类": "人机交互与普适计算",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "C",
+      "简称": "",
+      "全称": "IEEE Transactions on Human-Machine Systems"
+    },
+    {
+      "大类": "人机交互与普适计算",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "E",
+      "简称": "IWC",
+      "全称": "Interacting with Computers"
+    },
+    {
+      "大类": "人机交互与普适计算",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "E",
+      "简称": "IJHCI",
+      "全称": "International Journal of Human-Computer Interaction"
+    },
+    {
+      "大类": "人机交互与普适计算",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "C",
+      "简称": "UMUAI",
+      "全称": "User Modeling and User-Adapted Interaction"
+    },
+    {
+      "大类": "人机交互与普适计算",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "B",
+      "简称": "TSMC",
+      "全称": "IEEE Transactions on Systems, Man,and Cybernetics: Systems"
+    },
+    {
+      "大类": "人机交互与普适计算",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "CCF TPCI",
+      "全称": "CCF Transactions on Pervasive Computing and Interaction"
+    },
+    {
+      "大类": "人机交互与普适计算",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "E",
+      "简称": "BIT",
+      "全称": "Behaviour & Information Technology"
+    },
+    {
+      "大类": "人机交互与普适计算",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "E",
+      "简称": "PUC",
+      "全称": "Personal and Ubiquitous Computing"
+    },
+    {
+      "大类": "人机交互与普适计算",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "D",
+      "简称": "PMC",
+      "全称": "Pervasive and Mobile Computing"
+    },
+    {
+      "大类": "人机交互与普适计算",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "PACMHCI",
+      "全称": "Proceedings of the ACM on Human-Computer Interaction"
+    },
+    {
+      "大类": "人机交互与普适计算",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "THRI",
+      "全称": "ACM Transactions on Human-Robot Interaction"
+    },
+    {
+      "大类": "人机交互与普适计算",
+      "类型": "会议",
+      "CCF分级": "A",
+      "川大分级": "",
+      "简称": "CSCW",
+      "全称": "ACM Conference On Computer-Supported Cooperative Work And Social Computing"
+    },
+    {
+      "大类": "人机交互与普适计算",
+      "类型": "会议",
+      "CCF分级": "A",
+      "川大分级": "",
+      "简称": "CHI",
+      "全称": "ACM Conference on Human Factors in Computing Systems"
+    },
+    {
+      "大类": "人机交互与普适计算",
+      "类型": "会议",
+      "CCF分级": "A",
+      "川大分级": "",
+      "简称": "UbiComp",
+      "全称": "ACM international joint conference on Pervasive and Ubiquitous Computing"
+    },
+    {
+      "大类": "人机交互与普适计算",
+      "类型": "会议",
+      "CCF分级": "A",
+      "川大分级": "",
+      "简称": "UIST",
+      "全称": "ACM Symposium on User Interface Software and Technology"
+    },
+    {
+      "大类": "人机交互与普适计算",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "GROUP",
+      "全称": "ACM International Conference on Supporting Group Work"
+    },
+    {
+      "大类": "人机交互与普适计算",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "IUI",
+      "全称": "ACM International Conference on Intelligent User Interfaces"
+    },
+    {
+      "大类": "人机交互与普适计算",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "ISS",
+      "全称": "ACM International Conference on Interactive Surfaces and Spaces"
+    },
+    {
+      "大类": "人机交互与普适计算",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "ECSCW",
+      "全称": "European Conference on Computer Supported Cooperative Work"
+    },
+    {
+      "大类": "人机交互与普适计算",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "PERCOM",
+      "全称": "IEEE International Conference on Pervasive Computing and Communications"
+    },
+    {
+      "大类": "人机交互与普适计算",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "MobileHCI",
+      "全称": "ACM International Conference on Mobile Human-Computer Interaction"
+    },
+    {
+      "大类": "人机交互与普适计算",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "ICWSM",
+      "全称": "The International AAAI Conference on Web and Social Media"
+    },
+    {
+      "大类": "人机交互与普适计算",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "DIS",
+      "全称": "ACM SIGCHI Conference on Designing Interactive Systems"
+    },
+    {
+      "大类": "人机交互与普适计算",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "ICMI",
+      "全称": "ACM International Conference on Multimodal Interaction"
+    },
+    {
+      "大类": "人机交互与普适计算",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "ASSETS",
+      "全称": "International ACM SIGACCESS Conference on Computers and Accessibility"
+    },
+    {
+      "大类": "人机交互与普适计算",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "GI",
+      "全称": "Graphics Interface"
+    },
+    {
+      "大类": "人机交互与普适计算",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "UIC",
+      "全称": "IEEE International Conference on Ubiquitous Intelligence and  Computing"
+    },
+    {
+      "大类": "人机交互与普适计算",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "",
+      "全称": "IEEE World Haptics Conference"
+    },
+    {
+      "大类": "人机交互与普适计算",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "INTERACT",
+      "全称": "International Conference on Human- Computer Interaction of International Federation for Information Processing"
+    },
+    {
+      "大类": "人机交互与普适计算",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "IDC",
+      "全称": "ACM Interaction Design and Children"
+    },
+    {
+      "大类": "人机交互与普适计算",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "CollaborateCom",
+      "全称": "International Conference on Collaborative Computing: Networking, Applications and Worksharing"
+    },
+    {
+      "大类": "人机交互与普适计算",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "CSCWD",
+      "全称": "International Conference on Computer Supported Cooperative Work in Design"
+    },
+    {
+      "大类": "人机交互与普适计算",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "CoopIS",
+      "全称": "International Conference on Cooperative Information Systems"
+    },
+    {
+      "大类": "人机交互与普适计算",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "MobiQuitous",
+      "全称": "International Conference on Mobile and Ubiquitous Systems: Computing, Networking and Services"
+    },
+    {
+      "大类": "人机交互与普适计算",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "AVI",
+      "全称": "International Working Conference on Advanced Visual Interfaces"
+    },
+    {
+      "大类": "人机交互与普适计算",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "GPC",
+      "全称": "Conference on Green, Pervasive and Cloud Computing"
+    },
+    {
+      "大类": "人机交互与普适计算",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "ICXR",
+      "全称": "CCF International Conference on Extended Reality"
+    },
+    {
+      "大类": "交叉/综合/新兴",
+      "类型": "期刊",
+      "CCF分级": "A",
+      "川大分级": "B",
+      "简称": "JACM",
+      "全称": "Journal of the ACM"
+    },
+    {
+      "大类": "交叉/综合/新兴",
+      "类型": "期刊",
+      "CCF分级": "A",
+      "川大分级": "A-",
+      "简称": "Proc. IEEE",
+      "全称": "Proceedings of the IEEE"
+    },
+    {
+      "大类": "交叉/综合/新兴",
+      "类型": "期刊",
+      "CCF分级": "A",
+      "川大分级": "C",
+      "简称": "SCIS",
+      "全称": "Science China Information Sciences"
+    },
+    {
+      "大类": "交叉/综合/新兴",
+      "类型": "期刊",
+      "CCF分级": "A",
+      "川大分级": "D",
+      "简称": "Bioinformatics",
+      "全称": "Bioinformatics"
+    },
+    {
+      "大类": "交叉/综合/新兴",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "C",
+      "简称": "",
+      "全称": "Briefings in Bioinformatics"
+    },
+    {
+      "大类": "交叉/综合/新兴",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "Cognition",
+      "全称": "Cognition"
+    },
+    {
+      "大类": "交叉/综合/新兴",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "C",
+      "简称": "TASAE",
+      "全称": "IEEE Transactions on Automation Science and Engineering"
+    },
+    {
+      "大类": "交叉/综合/新兴",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "B",
+      "简称": "TGARS",
+      "全称": "IEEE Transactions on Geoscience and Remote Sensing"
+    },
+    {
+      "大类": "交叉/综合/新兴",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "B",
+      "简称": "TITS",
+      "全称": "IEEE Transactions on Intelligent Transportation Systems"
+    },
+    {
+      "大类": "交叉/综合/新兴",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "B",
+      "简称": "TMI",
+      "全称": "IEEE Transactions on Medical Imaging"
+    },
+    {
+      "大类": "交叉/综合/新兴",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "B",
+      "简称": "TR",
+      "全称": "IEEE Transactions on Robotics"
+    },
+    {
+      "大类": "交叉/综合/新兴",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "D",
+      "简称": "TCBB",
+      "全称": "IEEE/ACM Transactions on Computational Biology and Bioinformatics"
+    },
+    {
+      "大类": "交叉/综合/新兴",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "D",
+      "简称": "JCST",
+      "全称": "Journal of Computer Science and Technology"
+    },
+    {
+      "大类": "交叉/综合/新兴",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "B",
+      "简称": "JAMIA",
+      "全称": "Journal of the American Medical Informatics Association"
+    },
+    {
+      "大类": "交叉/综合/新兴",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "C",
+      "简称": "",
+      "全称": "PLOS Computational Biology"
+    },
+    {
+      "大类": "交叉/综合/新兴",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "E",
+      "简称": "",
+      "全称": "The Computer Journal"
+    },
+    {
+      "大类": "交叉/综合/新兴",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "D",
+      "简称": "WWW",
+      "全称": "World Wide Web"
+    },
+    {
+      "大类": "交叉/综合/新兴",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "D",
+      "简称": "FCS",
+      "全称": "Frontiers of Computer Science"
+    },
+    {
+      "大类": "交叉/综合/新兴",
+      "类型": "期刊",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "BCRA",
+      "全称": "Blockchain: Research and Applications"
+    },
+    {
+      "大类": "交叉/综合/新兴",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "D",
+      "简称": "",
+      "全称": "BMC Bioinformatics"
+    },
+    {
+      "大类": "交叉/综合/新兴",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "E",
+      "简称": "",
+      "全称": "Cybernetics and Systems"
+    },
+    {
+      "大类": "交叉/综合/新兴",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "C",
+      "简称": "",
+      "全称": "IEEE Geoscience and Remote Sensing Letters"
+    },
+    {
+      "大类": "交叉/综合/新兴",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "C",
+      "简称": "JBHI",
+      "全称": "IEEE Journal of Biomedical and Health Informatics"
+    },
+    {
+      "大类": "交叉/综合/新兴",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "TBD",
+      "全称": "IEEE Transactions on Big Data"
+    },
+    {
+      "大类": "交叉/综合/新兴",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "D",
+      "简称": "",
+      "全称": "IET Intelligent Transport Systems"
+    },
+    {
+      "大类": "交叉/综合/新兴",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "C",
+      "简称": "JBI",
+      "全称": "Journal of Biomedical Informatics"
+    },
+    {
+      "大类": "交叉/综合/新兴",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "B",
+      "简称": "",
+      "全称": "Medical Image Analysis"
+    },
+    {
+      "大类": "交叉/综合/新兴",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "B",
+      "简称": "TII",
+      "全称": "IEEE Transactions on Industrial Informatics"
+    },
+    {
+      "大类": "交叉/综合/新兴",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "TCPS",
+      "全称": "ACM Transactions on Cyber-Physical Systems"
+    },
+    {
+      "大类": "交叉/综合/新兴",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "D",
+      "简称": "TOCE",
+      "全称": "ACM Transactions on Computing Education"
+    },
+    {
+      "大类": "交叉/综合/新兴",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "D",
+      "简称": "EITEE （原FITEE）",
+      "全称": "ENGINEERING Information Technology & Electronic Engineering （原 Frontiers of Information Technology & Electronic Engineering）"
+    },
+    {
+      "大类": "交叉/综合/新兴",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "TCSS",
+      "全称": "IEEE Transactions on Computational Social Systems"
+    },
+    {
+      "大类": "交叉/综合/新兴",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "C",
+      "简称": "",
+      "全称": "IEEE Transactions on Reliability"
+    },
+    {
+      "大类": "交叉/综合/新兴",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "HEALTH",
+      "全称": "ACM Transactions on Computing for Healthcare"
+    },
+    {
+      "大类": "交叉/综合/新兴",
+      "类型": "期刊",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "ACM DLT",
+      "全称": "ACM Distributed Ledger Technologies: Research and Practice"
+    },
+    {
+      "大类": "交叉/综合/新兴",
+      "类型": "会议",
+      "CCF分级": "A",
+      "川大分级": "",
+      "简称": "WWW",
+      "全称": "The Web Conference （原 International World Wide Web Conference）"
+    },
+    {
+      "大类": "交叉/综合/新兴",
+      "类型": "会议",
+      "CCF分级": "A",
+      "川大分级": "",
+      "简称": "RTSS",
+      "全称": "IEEE Real-Time Systems Symposium"
+    },
+    {
+      "大类": "交叉/综合/新兴",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "CogSci",
+      "全称": "Annual Meeting of the Cognitive Science Society"
+    },
+    {
+      "大类": "交叉/综合/新兴",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "BIBM",
+      "全称": "IEEE International Conference on Bioinformatics and Biomedicine"
+    },
+    {
+      "大类": "交叉/综合/新兴",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "EMSOFT",
+      "全称": "International Conference on Embedded Software"
+    },
+    {
+      "大类": "交叉/综合/新兴",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "ISMB",
+      "全称": "International conference on Intelligent Systems for Molecular Biology"
+    },
+    {
+      "大类": "交叉/综合/新兴",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "RECOMB",
+      "全称": "Annual International Conference on Research in Computational Molecular Biology"
+    },
+    {
+      "大类": "交叉/综合/新兴",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "MICCAI",
+      "全称": "International Conference on Medical Image Computing and Computer-Assisted Intervention"
+    },
+    {
+      "大类": "交叉/综合/新兴",
+      "类型": "会议",
+      "CCF分级": "B",
+      "川大分级": "",
+      "简称": "WINE",
+      "全称": "Conference on Web and Internet  Economics"
+    },
+    {
+      "大类": "交叉/综合/新兴",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "AMIA",
+      "全称": "American Medical Informatics Association Annual Symposium"
+    },
+    {
+      "大类": "交叉/综合/新兴",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "APBC",
+      "全称": "Asia Pacific Bioinformatics Conference"
+    },
+    {
+      "大类": "交叉/综合/新兴",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "IEEE BigData",
+      "全称": "IEEE International Conference on Big Data"
+    },
+    {
+      "大类": "交叉/综合/新兴",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "IEEE CLOUD",
+      "全称": "IEEE International Conference on Cloud Computing"
+    },
+    {
+      "大类": "交叉/综合/新兴",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "SMC",
+      "全称": "IEEE International Conference on Systems, Man, and Cybernetics"
+    },
+    {
+      "大类": "交叉/综合/新兴",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "COSIT",
+      "全称": "International Conference on Spatial Information Theory"
+    },
+    {
+      "大类": "交叉/综合/新兴",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "ISBRA",
+      "全称": "International Symposium on Bioinformatics Research and Applications"
+    },
+    {
+      "大类": "交叉/综合/新兴",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "SAGT",
+      "全称": "International Symposium on Algorithmic Game Theory"
+    },
+    {
+      "大类": "交叉/综合/新兴",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "SIGSPATIAL",
+      "全称": "ACM Special Interest Group on Spatial Information"
+    },
+    {
+      "大类": "交叉/综合/新兴",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "ICIC",
+      "全称": "International Conference on Intelligent Computing"
+    },
+    {
+      "大类": "交叉/综合/新兴",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "ICSS",
+      "全称": "International Conference on Service Science"
+    },
+    {
+      "大类": "交叉/综合/新兴",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "AFT",
+      "全称": "Advances in Financial Technologies"
+    },
+    {
+      "大类": "交叉/综合/新兴",
+      "类型": "会议",
+      "CCF分级": "C",
+      "川大分级": "",
+      "简称": "IJTCS-FAW",
+      "全称": "International Joint Conference on Theoretical Computer Science - Frontier of Algorithmic Wisdom"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+/* 与 Google Scholar 原生 Citations 统计块保持一致；运行时还会直接
+   复制 #gsc_rsb_st / #gsc_rsb_cit 的计算样式到卡片上，此文件仅作兜底。 */
+
+.sas-cit-block {
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  color: #222;
+  margin: 0 0 12px;
+}
+
+.sas-cit-title {
+  margin: 0 0 4px;
+  color: #777;
+  font-size: 13px;
+  font-weight: normal;
+}
+
+.sas-cit-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* 与 Google 原生 #gsc_rsb_st 相同：用 tbody 伪元素做行间留白 */
+.sas-cit-table tbody:before,
+.sas-cit-table tbody:after {
+  content: '';
+  display: block;
+  height: 8px;
+}
+
+.gs_el_sm .sas-cit-table tbody:before,
+.gs_el_sm .sas-cit-table tbody:after {
+  height: 4px;
+}
+
+.sas-cit-label {
+  padding: 0 8px 4px 0;
+  color: #777;
+  text-align: left;
+  white-space: nowrap;
+}
+
+/* 表头与数值列居中对齐，数字自然落在标题下方 */
+.sas-cit-head-cell {
+  padding: 0 8px 2px;
+  color: #777;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.sas-cit-value {
+  padding: 0 8px 4px;
+  color: #222;
+  text-align: center;
+  white-space: nowrap;
+}
+
+/* 表头下的小横线，隔开标题与数据 */
+.sas-cit-head td {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.sas-cit-status {
+  display: none;
+  margin: 4px 0;
+  color: #777;
+  font-size: 12px;
+}
+
+/* 兜底样式，参照 Google Scholar 的 Show more 按钮 */
+.sas-cit-load {
+  margin-top: 6px;
+  padding: 4px 12px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  background: #f5f5f5;
+  color: #444;
+  font: inherit;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.sas-cit-load:hover {
+  background: #e8e8e8;
+}
+
+.sas-cit-load:disabled {
+  opacity: 0.6;
+  cursor: default;
+}

@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Scholar First/Corresponding Metrics</title>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <main class="popup">
+      <header>
+        <h1>First/Corresponding Metrics</h1>
+        <p id="target">Reading current page…</p>
+      </header>
+      <section class="summary" id="summary">
+        <div><span>Papers</span><strong id="totalRows">0</strong></div>
+        <div><span>First</span><strong id="rankedFirst">0</strong></div>
+        <div><span>Corresponding</span><strong id="rankedLast">0</strong></div>
+        <div><span>Citations</span><strong id="totalCitations">0</strong></div>
+      </section>
+      <div class="status" id="status">Preparing</div>
+      <nav class="actions">
+        <button type="button" data-action="scan">Rescan</button>
+        <button type="button" data-action="loadAll">Load all</button>
+        <button type="button" data-action="options">Settings</button>
+      </nav>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>

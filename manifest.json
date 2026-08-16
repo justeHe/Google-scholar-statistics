@@ -1,0 +1,60 @@
+{
+  "manifest_version": 3,
+  "name": "Google Scholar First/Corresponding Metrics",
+  "version": "0.3.0",
+  "description": "Show first/corresponding-author citations, h-index and i10-index on Google Scholar profiles.",
+  "permissions": [
+    "storage",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "https://scholar.google.com/citations*",
+    "https://scholar.google.com.hk/citations*",
+    "https://scholar.google.com.tw/citations*",
+    "https://scholar.google.com.sg/citations*",
+    "https://scholar.google.co.jp/citations*",
+    "https://scholar.google.co.kr/citations*",
+    "https://scholar.google.co.uk/citations*",
+    "https://scholar.google.co.in/citations*",
+    "https://scholar.google.cn/citations*"
+  ],
+  "background": {
+    "service_worker": "src/background/service-worker.js"
+  },
+  "action": {
+    "default_title": "Scholar First/Corresponding Metrics",
+    "default_popup": "src/popup/popup.html"
+  },
+  "options_page": "src/options/options.html",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://scholar.google.com/citations*",
+        "https://scholar.google.com.hk/citations*",
+        "https://scholar.google.com.tw/citations*",
+        "https://scholar.google.com.sg/citations*",
+        "https://scholar.google.co.jp/citations*",
+        "https://scholar.google.co.kr/citations*",
+        "https://scholar.google.co.uk/citations*",
+        "https://scholar.google.co.in/citations*",
+        "https://scholar.google.cn/citations*"
+      ],
+      "css": [
+        "styles/scholar-stat-panel.css"
+      ],
+      "js": [
+        "src/shared/constants.js",
+        "src/shared/storage.js",
+        "src/content/author-matcher.js",
+        "src/content/role-classifier.js",
+        "src/content/stats-engine.js",
+        "src/content/scholar-dom.js",
+        "src/content/detail-fetcher.js",
+        "src/content/show-more-loader.js",
+        "src/content/ui-panel.js",
+        "src/content/bootstrap.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}
