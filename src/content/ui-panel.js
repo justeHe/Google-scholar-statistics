@@ -161,28 +161,28 @@
               <td class="sas-cit-value sas-break-value" data-group="ccf" data-grade="C" data-role="since"></td>
             </tr>
             <tr>
-              <td class="sas-cit-label">SCI 1</td>
+              <td class="sas-cit-label">SCI 1区</td>
               <td class="sas-cit-value sas-break-value" data-group="cas" data-grade="1" data-role="first"></td>
               <td class="sas-cit-value sas-break-value" data-group="cas" data-grade="1" data-role="corresponding"></td>
               <td class="sas-cit-value sas-break-value" data-group="cas" data-grade="1" data-role="total"></td>
               <td class="sas-cit-value sas-break-value" data-group="cas" data-grade="1" data-role="since"></td>
             </tr>
             <tr>
-              <td class="sas-cit-label">SCI 2</td>
+              <td class="sas-cit-label">SCI 2区</td>
               <td class="sas-cit-value sas-break-value" data-group="cas" data-grade="2" data-role="first"></td>
               <td class="sas-cit-value sas-break-value" data-group="cas" data-grade="2" data-role="corresponding"></td>
               <td class="sas-cit-value sas-break-value" data-group="cas" data-grade="2" data-role="total"></td>
               <td class="sas-cit-value sas-break-value" data-group="cas" data-grade="2" data-role="since"></td>
             </tr>
             <tr>
-              <td class="sas-cit-label">SCI 3</td>
+              <td class="sas-cit-label">SCI 3区</td>
               <td class="sas-cit-value sas-break-value" data-group="cas" data-grade="3" data-role="first"></td>
               <td class="sas-cit-value sas-break-value" data-group="cas" data-grade="3" data-role="corresponding"></td>
               <td class="sas-cit-value sas-break-value" data-group="cas" data-grade="3" data-role="total"></td>
               <td class="sas-cit-value sas-break-value" data-group="cas" data-grade="3" data-role="since"></td>
             </tr>
             <tr>
-              <td class="sas-cit-label">SCI 4</td>
+              <td class="sas-cit-label">SCI 4区</td>
               <td class="sas-cit-value sas-break-value" data-group="cas" data-grade="4" data-role="first"></td>
               <td class="sas-cit-value sas-break-value" data-group="cas" data-grade="4" data-role="corresponding"></td>
               <td class="sas-cit-value sas-break-value" data-group="cas" data-grade="4" data-role="total"></td>
@@ -340,21 +340,24 @@
   }
 
   // 等级配色：CCF A、SCI 1 区、川大 A/A−/B 归为“顶级”共用一种颜色，
-  // 其余按等级依次递减。
+  // 其余按等级依次递减。所有徽章尺寸统一，只有颜色随等级变化。
   const BADGE_GROUPS = [
     {
       field: "f",
       label: "CCF",
+      suffix: "",
       tierOf: (value) => (value === "A" ? "top" : value === "B" ? "mid" : "low")
     },
     {
       field: "c",
       label: "SCI",
+      suffix: "区",
       tierOf: (value) => (value === "1" ? "top" : value === "2" ? "mid" : value === "3" ? "low" : "lowest")
     },
     {
       field: "s",
       label: "SCU",
+      suffix: "",
       tierOf: (value) => (
         value === "A" || value === "A-" || value === "B"
           ? "top"
@@ -368,7 +371,7 @@
     return BADGE_GROUPS
       .filter((group) => entry[group.field])
       .map((group) => ({
-        text: `${group.label} ${entry[group.field]}`,
+        text: `${group.label} ${entry[group.field]}${group.suffix || ""}`,
         cls: `sas-tier-${group.tierOf(entry[group.field])}`
       }));
   }

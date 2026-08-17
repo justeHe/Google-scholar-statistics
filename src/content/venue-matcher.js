@@ -10,11 +10,11 @@
   ]);
 
   // 会议名归一化时丢弃的包装词（检索方与被检索方双方一致）：
-  // IEEE/CVF、ACM、Proceedings of the、Conference on … 等。
+  // IEEE/CVF、ACM、Proceedings of the、Conference on、Advances in … 等。
   const CONF_DROP_WORDS = new Set([
     "the", "of", "on", "in", "proceedings", "proc", "conference",
     "international", "annual", "joint", "ieee", "acm", "cvf",
-    "symposium", "workshop"
+    "symposium", "workshop", "advances"
   ]);
 
   // 查找键：不区分大小写与空格；& 与 and 互换；逗号、连字符去掉（匹配双方一致）。
@@ -152,51 +152,57 @@
     return null;
   }
 
-  function matchConf(venue, query) {
+  // 会议精确匹配（全称/简称，& 与 and 互换后）。
+  function matchConfExact(venue, query) {
     const folded = foldKey(query);
-    // 1. 全称/简称精确（& 与 and 互换后）
     for (const entry of dataset.confs) {
       if (entry.nk === folded || entry.ak === folded) {
         return { venue, match: match(entry, "exact") };
       }
     }
-    // 2. 双方去掉包装词（IEEE/CVF、Proceedings of the、Conference on …）后精确
+    return null;
+  }
+
+  // 会议归一化匹配：双方去掉包装词（IEEE/CVF、Proceedings of the、Conference on、
+  // Advances…）后精确比较，覆盖不带 conference 词的完整会议名。
+  function matchConfStripped(venue, query) {
     const stripped = strippedConfKey(query);
-    if (stripped) {
-      for (const entry of dataset.confs) {
-        if (entry.sk && entry.sk === stripped) {
-          return { venue, match: match(entry, "high") };
-        }
+    if (!stripped) return null;
+    for (const entry of dataset.confs) {
+      if (entry.sk && entry.sk === stripped) {
+        return { venue, match: match(entry, "high") };
       }
     }
     return null;
   }
 
   /**
-   * 按规则查表：
-   * - 查询名字里含 conference 就只在会议里查；
-   * - preferConf（包装前缀之后）先查会议，查不到再查期刊；
-   * - 否则只在期刊里查。
+   * 查表顺序（不再按是否含 conference 决定路由）：
+   * 1. 会议精确（全称/简称）——覆盖 Annual Meeting of the …、USENIX Symposium …
+   *    这类没有 conference 词的会议全称；
+   * 2. 期刊精确——防止同名期刊被会议归一化键抢走（如 Neural Networks vs IJCNN）；
+   * 3. 会议归一化——覆盖 “Computer Vision and Pattern Recognition”、
+   *    “Advances in Neural Information Processing Systems” 这类完整会议名。
    */
-  function lookup(venue, query, preferConf) {
-    if (/conference/i.test(query)) {
-      return matchConf(venue, query);
-    }
-    if (preferConf) {
-      return matchConf(venue, query) || matchJournal(venue, query);
-    }
-    return matchJournal(venue, query);
+  function lookup(venue, query) {
+    const confExact = matchConfExact(venue, query);
+    if (confExact) return confExact;
+
+    const journal = matchJournal(venue, query);
+    if (journal) return journal;
+
+    return matchConfStripped(venue, query);
   }
 
   /**
    * 匹配规则：
    * 1. 查询名字 = 载体字符串从第一个字母到第一个终止符（标点/数字）之前的部分；
    *    & 与 / 不是终止符；
-   * 2. 查询名字里含 conference 就只在会议里查，否则只在期刊里查；
-   * 3. 查找不区分大小写与空格，& 与 and 互换（全称/简称精确相等）；
-   * 4. 会议匹配时，双方都去掉包装词（IEEE/CVF、Proceedings of the、Conference on…）；
+   * 2. 每个载体都先匹配会议、再匹配期刊，不再根据 conference 一词决定路由；
+   * 3. 查找不区分大小写与空格，& 与 and 互换，逗号、连字符双方去掉（全称/简称精确相等）；
+   * 4. 会议归一化：双方都去掉包装词（IEEE/CVF、Proceedings of the、Conference on、Advances…）；
    * 5. “Proceedings of the” 这类纯包装前缀单独处理：匹配不上时跳过后面的
-   *    数字词（39th、2020…），拿再后面的会议名继续匹配。
+   *    数字词（39th、2020…），拿再后面的名称继续匹配。
    */
   function matchVenue(venueText) {
     const venue = String(venueText || "").trim();
@@ -204,16 +210,14 @@
 
     let segment = segmentFrom(venue, 0);
     let query = segment.name;
-    let preferConf = false;
 
     while (query) {
-      const hit = lookup(venue, query, preferConf);
+      const hit = lookup(venue, query);
       if (hit) return hit;
 
-      // 只有包装前缀（Proceedings of the …）才继续往后取会议名。
+      // 只有包装前缀（Proceedings of the …）才继续往后取下一段。
       if (!isWrapperPhrase(query)) break;
 
-      preferConf = true;
       segment = nextSegment(venue, segment.end);
       query = segment.name;
     }

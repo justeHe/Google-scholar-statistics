@@ -7,10 +7,10 @@
  * 匹配规则：
  * - 期刊名字取每一条（论文）的最后一行；
  * - 查询名字 = 载体行从第一个字母到第一个终止符（标点/数字）之前的部分，&、/、逗号、连字符不是终止符；
- * - 查询名字里含 conference 只查会议，否则只查期刊；
+ * - 每个载体先匹配会议（精确 → 归一化）、中间夹期刊精确，不再按 conference 一词路由；
  * - 查找不区分大小写与空格，& 与 and 互换，逗号、连字符双方都去掉（全称/简称精确相等）；
- * - 会议匹配时双方都去掉包装词（IEEE/CVF、Proceedings of the、Conference on…）；
- * - “Proceedings of the” 这类纯包装前缀单独处理：跳过数字词，拿后面的会议名匹配。
+ * - 会议归一化：双方都去掉包装词（IEEE/CVF、Proceedings of the、Conference on、Advances…）；
+ * - “Proceedings of the” 这类纯包装前缀单独处理：跳过数字词，拿后面的名称匹配。
  */
 
 const assert = require("assert");
@@ -45,14 +45,35 @@ function match(venue) {
   assert.strictEqual(jmlr.kind, "journal");
   assert.strictEqual(jmlr.entry.n, "Journal of Machine Learning Research");
 
-  // 含 conference 的只查会议
+  // 含 conference 的会议
   const icml = match("International Conference on Machine Learning, 2022");
   assert(icml);
   assert.strictEqual(icml.kind, "conf");
   assert.strictEqual(icml.entry.a, "ICML");
 
-  // 不含 conference 的会议名（NeurIPS 全称）按规则查期刊 → 不命中
-  assert.strictEqual(match("Advances in Neural Information Processing Systems"), null);
+  // 不含 conference 的完整会议名也应命中（先会议后期刊）
+  const neurips = match("Advances in Neural Information Processing Systems, 2020");
+  assert(neurips);
+  assert.strictEqual(neurips.kind, "conf");
+  assert.strictEqual(neurips.entry.a, "NeurIPS");
+
+  // 独立的会议特征名（Computer Vision and Pattern Recognition）命中 CVPR
+  const cvprBare = match("Computer Vision and Pattern Recognition, 2021");
+  assert(cvprBare);
+  assert.strictEqual(cvprBare.kind, "conf");
+  assert.strictEqual(cvprBare.entry.a, "CVPR");
+
+  // 无 conference 词的会议全称（Annual Meeting of the …）精确命中
+  const acl = match("Annual Meeting of the Association for Computational Linguistics, 2022");
+  assert(acl);
+  assert.strictEqual(acl.kind, "conf");
+  assert.strictEqual(acl.entry.a, "ACL");
+
+  // 与会议归一化键同名的期刊，期刊精确优先（Neural Networks 不被 IJCNN 抢走）
+  const nn = match("Neural Networks, 2020");
+  assert(nn);
+  assert.strictEqual(nn.kind, "journal");
+  assert.strictEqual(nn.entry.n, "Neural Networks");
 
   // “Proceedings of the” 包装前缀单独处理：跳过数字词，拿后面的会议名匹配
   const icmlProceedings = match("Proceedings of the 39th International Conference on Machine Learning");

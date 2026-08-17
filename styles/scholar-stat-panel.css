@@ -121,6 +121,8 @@
 
 .sas-badge-chip {
   display: inline-block;
+  min-width: 58px;
+  text-align: center;
   margin: 0 8px 2px 0;
   padding: 2px 6px;
   border-radius: 6px;

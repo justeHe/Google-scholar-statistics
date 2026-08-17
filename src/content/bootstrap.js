@@ -291,7 +291,7 @@
     });
     ["1", "2", "3", "4"].forEach((zone) => {
       const bucket = (stats.sciZones && stats.sciZones[zone]) || null;
-      lines.push(`SCI,${zone},${bucket ? bucket.total : 0}`);
+      lines.push(`SCI,${zone}区,${bucket ? bucket.total : 0}`);
     });
     ["A", "A-", "B", "C", "D", "E"].forEach((grade) => {
       const bucket = (stats.scuGrades && stats.scuGrades[grade]) || null;
