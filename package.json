@@ -1,6 +1,6 @@
 {
   "name": "scholar-first-corresponding-metrics",
-  "version": "0.13.0",
+  "version": "0.15.1",
   "private": true,
   "description": "Chrome extension for first/corresponding-author metrics and top-venue counts on Google Scholar profiles.",
   "scripts": {

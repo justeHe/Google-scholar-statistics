@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Google Scholar First/Corresponding Metrics",
-  "version": "0.13.0",
+  "version": "0.15.1",
   "description": "Show first/corresponding-author citations, h-index and i10-index on Google Scholar profiles.",
   "permissions": [
     "storage",

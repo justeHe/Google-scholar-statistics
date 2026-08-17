@@ -1,7 +1,7 @@
 # Google Scholar 一作/通讯指标插件
 
 [![Manifest V3](https://img.shields.io/badge/Manifest-V3-blue)](#)
-[![Version](https://img.shields.io/badge/version-0.12.0-green)](#)
+[![Version](https://img.shields.io/badge/version-0.14.0-green)](#)
 [![License](https://img.shields.io/badge/license-MIT-lightgrey)](#license)
 
 一个 Chrome 浏览器扩展，用于增强 Google Scholar 作者主页，自动展示一作、通讯作者近似指标，以及论文的期刊/会议评级信息。
@@ -91,11 +91,16 @@ scholar-venue-grades.csv
 
 针对 Google Scholar 中格式不统一的论文载体信息，匹配过程采用：
 
-1. 会议名称优先匹配；
-2. 期刊名称匹配；
-3. 对名称进行归一化处理后再次匹配。
-
-匹配过程中会忽略大小写、空格和部分常见格式差异，并支持会议全称与简称匹配。
+1. 载体行按终止符（`:`、`;`、括号等）分成多段，逐段尝试；
+2. 会议名称优先匹配（精确 → 归一化），再匹配期刊；
+3. 对名称进行归一化处理：忽略大小写、空格、`&` 与 `and` 互换，支持会议全称与简称匹配；
+4. 匹配键双方一致地去掉：冠词 `the`、序数词（`twelfth`、`3rd` 等）、噪声数字词
+   （`2020`、`39th`、`21` 等；保留 `2D`/`3D` 这类名称型数字）与卷期标记（`vol`、`pp` 等）；
+5. 归一化精确不中时，按词序列“包含关系”匹配（数据库会议键 ≥ 3 个词才参与，避免
+   `Proceedings of Machine Learning Research` 误配 ICML），如联合会议长串
+   `... International Conference on Computational Linguistics and 44th Annual Meeting of the ACL` 命中 ACL；
+6. 多个候选同时命中时，优先取全称最短的（如 `The Lancet` 与 `Lancet`）；
+7. 定向处理 IEEE 会议行（`ICASSP 2022-2022 IEEE International Conference on ... (ICASSP)`）。
 
 ---
 
