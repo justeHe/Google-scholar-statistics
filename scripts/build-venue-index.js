@@ -21,13 +21,54 @@
 const fs = require("fs");
 const path = require("path");
 
-// 与 src/content/venue-matcher.js 的 foldKey 一致：小写、去空格、& 与 and 互换、去逗号与连字符。
+// 与 src/content/venue-matcher.js 的 foldKey 一致：小写、& 与 and 互换、分词后
+// 双方一致地去掉冠词 the、序数词、含数字的词与卷期标记。
+const FOLD_DROP_WORDS = new Set([
+  "the", "vol", "volume", "no", "issue", "pp", "pages",
+  "ed", "edition", "part", "series", "suppl", "supplement"
+]);
+const ORDINAL_WORDS = new Set([
+  "first", "second", "third", "fourth", "fifth", "sixth", "seventh", "eighth", "ninth",
+  "tenth", "eleventh", "twelfth", "thirteenth", "fourteenth", "fifteenth", "sixteenth",
+  "seventeenth", "eighteenth", "nineteenth", "twentieth", "thirtieth", "fortieth",
+  "fiftieth", "sixtieth", "seventieth", "eightieth", "ninetieth", "hundredth",
+  // 十位基数词（"Thirty-ninth" 拆成 thirty + ninth，两部分都去掉）
+  "twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety",
+  "twentyfirst", "twentysecond", "twentythird", "twentyfourth", "twentyfifth",
+  "twentysixth", "twentyseventh", "twentyeighth", "twentyninth", "thirtyfirst",
+  "thirtysecond", "thirtythird", "thirtyfourth", "thirtyfifth", "thirtysixth",
+  "thirtyseventh", "thirtyeighth", "thirtyninth", "fortyfirst", "fortysecond",
+  "fortythird", "fortyfourth", "fortyfifth", "fortysixth", "fortyseventh",
+  "fortyeighth", "fortyninth", "fiftyfirst", "fiftysecond", "fiftythird",
+  "fiftyfourth", "fiftyfifth", "fiftysixth", "fiftyseventh", "fiftyeighth",
+  "fiftyninth", "sixtyfirst", "sixtysecond", "sixtythird", "sixtyfourth",
+  "sixtyfifth", "sixtysixth", "sixtyseventh", "sixtyeighth", "sixtyninth",
+  "seventyfirst", "seventysecond", "seventythird", "seventyfourth", "seventyfifth",
+  "seventysixth", "seventyseventh", "seventyeighth", "seventyninth", "eightyfirst",
+  "eightysecond", "eightythird", "eightyfourth", "eightyfifth", "eightysixth",
+  "eightyseventh", "eightyeighth", "eightyninth", "ninetyfirst", "ninetysecond",
+  "ninetythird", "ninetyfourth", "ninetyfifth", "ninetysixth", "ninetyseventh",
+  "ninetyeighth", "ninetyninth"
+]);
+
+// 噪声数字词：纯数字（2020/21）或带序数后缀（39th/3rd/12th/2nd）。
+// 保留 2D/3D 这类名称型数字（2D Materials 必须能命中）。
+function isNoiseToken(token) {
+  return /^\d+(st|nd|rd|th)?$/i.test(token);
+}
+
 function foldKey(text) {
   return String(text || "")
     .toLowerCase()
     .replace(/&/g, "and")
-    .replace(/[,，-]/g, "")
-    .replace(/\s+/g, "");
+    .split(/[^a-z0-9]+/)
+    .filter((token) => (
+      token &&
+      !FOLD_DROP_WORDS.has(token) &&
+      !ORDINAL_WORDS.has(token) &&
+      !isNoiseToken(token)
+    ))
+    .join("");
 }
 
 function main() {

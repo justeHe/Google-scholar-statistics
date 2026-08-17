@@ -6,11 +6,13 @@
  *
  * 匹配规则：
  * - 期刊名字取每一条（论文）的最后一行；
- * - 查询名字 = 载体行从第一个字母到第一个终止符（标点/数字）之前的部分，&、/、逗号、连字符不是终止符；
+ * - 查询名字 = 载体行第一个段内字符起到第一个终止符（括号/冒号等标点）为止，数字、&、/、逗号、连字符不是终止符；
  * - 每个载体先匹配会议（精确 → 归一化）、中间夹期刊精确，不再按 conference 一词路由；
- * - 查找不区分大小写与空格，& 与 and 互换，逗号、连字符双方都去掉（全称/简称精确相等）；
+ * - 查找键不区分大小写与空格，& 与 and 互换，双方一致地去掉冠词 the、序数词（twelfth/3rd）、
+ *   噪声数字词（2020/39th/21，保留 2D/3D 类名称数字）与卷期标记（vol/pp 等）；
+ * - 多个候选命中时优先取全称最短的；
  * - 会议归一化：双方都去掉包装词（IEEE/CVF、Proceedings of the、Conference on、Advances…）；
- * - “Proceedings of the” 这类纯包装前缀单独处理：跳过数字词，拿后面的名称匹配。
+ * - “Proceedings of the” 这类纯包装前缀单独处理：匹配不上时继续取后面的名称段。
  */
 
 const assert = require("assert");
@@ -133,6 +135,66 @@ function match(venue) {
   assert(bmj);
   assert.strictEqual(bmj.kind, "journal");
   assert.strictEqual(bmj.entry.n, "BMJ-British Medical Journal");
+
+  // 冠词 the 双方去掉：The Lancet 命中 Lancet
+  const lancet = match("The Lancet, 2020");
+  assert(lancet);
+  assert.strictEqual(lancet.kind, "journal");
+  assert.strictEqual(lancet.entry.n, "Lancet");
+
+  // 噪声数字词去掉：12th / 3rd 开头同样命中 ICML
+  assert.strictEqual(match("12th International Conference on Machine Learning").entry.a, "ICML");
+  assert.strictEqual(match("3rd International Conference on Machine Learning").entry.a, "ICML");
+
+  // 序数词去掉：twelfth 命中 ICML
+  assert.strictEqual(match("Twelfth International Conference on Machine Learning").entry.a, "ICML");
+
+  // 复合序数词去掉：Thirty-ninth（三十 + 第九，两部分都去）命中 NeurIPS
+  const neuripsThirtyNinth = match("The Thirty-ninth Annual Conference on Neural Information Processing Systems");
+  assert(neuripsThirtyNinth);
+  assert.strictEqual(neuripsThirtyNinth.kind, "conf");
+  assert.strictEqual(neuripsThirtyNinth.entry.a, "NeurIPS");
+
+  // 名称型数字保留：2D Materials 精确命中自身（而非 Materials 期刊）
+  const twoD = match("2D Materials, 2020");
+  assert(twoD);
+  assert.strictEqual(twoD.kind, "journal");
+  assert.strictEqual(twoD.entry.n, "2D Materials");
+
+  // IEEE 会议行格式："缩写 + 年份(-年份) + 全称 (缩写)"，去掉开头装饰后命中
+  const icassp = match("ICASSP 2022-2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)");
+  assert(icassp);
+  assert.strictEqual(icassp.kind, "conf");
+  assert.strictEqual(icassp.entry.a, "ICASSP");
+  assert.strictEqual(
+    match("ICASSP 2022 IEEE International Conference on Acoustics, Speech and Signal Processing").entry.a,
+    "ICASSP"
+  );
+
+  // 联合会议行（COLING+ACL 长串）→ 词序列包含关系命中 ACL
+  const jointAcl = match("Proceedings of the 21st International Conference on Computational Linguistics and 44th Annual Meeting of the Association for Computational Linguistics");
+  assert(jointAcl);
+  assert.strictEqual(jointAcl.kind, "conf");
+  assert.strictEqual(jointAcl.entry.a, "ACL");
+
+  // 分号/冒号分隔的多段行：第二段命中 NAACL
+  const naaclHlt = match("Human Language Technologies 2007: The Conference of the North American Chapter of the Association for Computational Linguistics; Proceedings of the Main Conference");
+  assert(naaclHlt);
+  assert.strictEqual(naaclHlt.kind, "conf");
+  assert.strictEqual(naaclHlt.entry.a, "NAACL");
+
+  // 包含关系兜底不误伤：PMLR（machine+learning+research）不得命中 ICML
+  assert.strictEqual(match("Proceedings of Machine Learning Research, 2021"), null);
+
+  // 纯噪声段不得与空简称条目误配（arXiv 行不得命中 IEEE World Haptics Conference）
+  assert.strictEqual(match("arXiv preprint arXiv:2312.12345"), null);
+  assert.strictEqual(match("arXiv preprint arXiv, 2021"), null);
+
+  // 卷期数字（21）在键里去噪后不影响 JMLR
+  assert.strictEqual(
+    match("Journal of Machine Learning Research 21(140):1-67, 2020").entry.n,
+    "Journal of Machine Learning Research"
+  );
 
   // 无法识别的载体
   assert.strictEqual(match("Qqqxxxzzz Unknown"), null);
