@@ -188,7 +188,21 @@ npm test
 * Google Scholar 页面结构变化可能影响 DOM 解析，需要相应更新扩展。
 
 
-可以，在 README 最后加一个简洁的 **Contributing** 部分即可，比较符合开源项目的风格：
+可以放在 **Contributing 前面**，形成「Roadmap → Contributing」的结构：
+
+## TODO 
+
+未来计划持续完善以下功能：
+
+* [ ] 支持更多期刊、会议评级体系；
+* [ ] 提升期刊与会议名称的自动匹配准确率；
+* [ ] 支持按研究方向或论文类别进行统计并导出；
+* [ ] 优化大规模作者主页的加载性能；
+* [ ] 支持导出可以供ai锐评的prompt；
+
+
+如果你有新的功能建议，也欢迎通过 **Issue** 或 **Pull Request** 一起完善这个项目。
+
 
 ## 🤝 Contributing
 
