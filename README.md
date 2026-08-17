@@ -1,101 +1,215 @@
-# Google Scholar First/Corresponding Metrics
+# Google Scholar 一作/通讯指标插件
 
 [![Manifest V3](https://img.shields.io/badge/Manifest-V3-blue)](#)
-[![Version](https://img.shields.io/badge/version-0.11.1-green)](#)
+[![Version](https://img.shields.io/badge/version-0.12.0-green)](#)
 [![License](https://img.shields.io/badge/license-MIT-lightgrey)](#license)
 
-A Chrome extension that augments Google Scholar author profiles with first/corresponding-author metrics, a "since &lt;year&gt;" window, per-paper venue ratings, and a per-grade statistics table — computed locally, with zero extra requests to Google.
+一个 Chrome 浏览器扩展，用于增强 Google Scholar 作者主页，自动展示一作、通讯作者近似指标，以及论文的期刊/会议评级信息。
 
-## Features
 
-- **Metrics card** above the native Citations block, with four columns:
-  - **First** — papers where the author is the first author,
-  - **Corr.** — papers where the author is the last author (approximation of corresponding author),
-  - **Since <year>** — Citations / h-index / i10-index taken from Google Scholar's own "Since" column in the profile stats block; the Papers row counts papers published since that year,
-  - **Total** — all papers (matches Google's own Cited by / h-index / i10-index).
-  - Rows: Papers, Citations, h-index, i10-index.
-- **Per-paper rating badges** injected under each paper title:
-  - CCF grade, SCI (CAS) zone, and SCU (Sichuan University) grade for every matched paper;
-  - top grades (CCF A, SCI zone 1, SCU A/A−/B) share one accent color, lower grades scale down;
-  - hovering a badge shows the full journal/conference name from the database; journals that carry a CCF grade show their CCF abbreviation (CSS-only tooltip, no event listeners);
-  - papers without any rating are left untouched.
-- **Grades panel** behind a `Grades` button: per-grade counts (CCF A/B/C, SCI zones 1–4, SCU grades A–E) with First / Corr. / Papers / Since columns, plus a matched/unmatched summary line.
-- **Export** (`Export` link): downloads `scholar-venue-grades.csv` — the grade summary followed by per-paper rows for auditing.
-- **Load all** (`Load all` link): expands the full publication list via "Show more".
-- The card actions (`Load all` / `Grades` / `Export`) are styled as blue text links.
-- **Detail completion**: truncated author lists (`…`) and venue lines cut off with an ellipsis are completed from the paper's detail page, which keeps the corresponding-author judgment reliable.
-- **Native styling**: the card copies Google Scholar's own computed styles at runtime.
+![Google Scholar Extension Preview](figures/hinton.png)
 
-## Matching rules
+## 功能
 
-Venue matching is local and deterministic. For each paper, the venue string is the **last line of the entry**.
+### 📊 作者指标增强
 
-1. **Query name** — from the first letter up to the first terminator (a punctuation mark or a digit, not included). `&`, `/`, commas and hyphens are **not** terminators.
-2. **Routing** — if the query name contains `conference` (case-insensitive), only the conference list is searched; otherwise only the journal list.
-3. **Lookup** — case-insensitive and space-insensitive exact comparison against full names and abbreviations, with `&` interchangeable with `and` and commas/hyphens removed on both sides.
-4. **Conference wrapper normalization** — when matching conferences, wrapper words are dropped from both sides: publisher prefixes (`IEEE/CVF`, `IEEE`, `ACM`), `Proceedings of the`, `Conference on`, `International`, `Symposium`, `Workshop`, etc.
-5. **Wrapper-prefix fallback** — if the query name consists only of wrapper words (`Proceedings of the`), digit-words (`39th`, `2020`…) are skipped and the conference name after them is matched.
+在 Google Scholar 原有统计信息基础上，增加：
 
-Known consequences of the rules:
+* **First**：作者作为第一作者的论文及相关指标；
+* **Corr.**：作者作为尾作者的论文，用于近似统计通讯作者；
+* **Since**：近五年窗口内的论文数量及 Google Scholar 原生引用指标；
+* **Total**：全部论文统计。
 
-- Conference names without the word `conference` (e.g. `Advances in Neural Information Processing Systems`) go to the journal list and stay unmatched.
-- Abbreviated lines (`IEEE Trans. Pattern Anal. Mach. Intell.` → `IEEE Trans`) do not match.
+支持展示：
 
-## Install
+* Papers
+* Citations
+* h-index
+* i10-index
 
-1. Open `chrome://extensions`, enable **Developer mode**.
-2. Click **Load unpacked** and select this directory.
-3. Open a Google Scholar profile page (`https://scholar.google.com/citations?user=...`).
+### 🏷️ 论文评级徽章
 
-## Project structure
+自动识别论文所属期刊或会议，并在论文条目下方显示评级：
+
+* **CCF A / B / C**
+* **SCI 中科院 1–4 区**
+* **四川大学期刊分级 A–E**
+
+不同等级使用不同颜色，高等级论文更加突出。
+
+### 📈 Grades 统计面板
+
+按照不同评级汇总作者论文，包括：
+
+* First Author 数量
+* Corresponding Author（尾作近似）数量
+* 总论文数量
+* Since 窗口内论文数量
+
+
+### 📥 数据导出
+
+支持导出：
+
+```text
+scholar-venue-grades.csv
+```
+
+包含：
+
+* 各评级等级汇总；
+* 每篇论文的作者角色；
+* 论文评级；
+* 匹配结果。
+
+### 🔄 自动加载全部论文
+
+点击 **Load all** 后，扩展会自动展开 Google Scholar 作者主页中的全部论文。
+
+对于作者信息或论文载体信息被截断的情况，扩展会自动补全论文详情，以提高作者角色和期刊/会议匹配的准确性。
+
+---
+
+## 核心技术
+
+### 1. 本地数据处理
+
+所有统计和期刊/会议匹配均在浏览器本地完成，不向 Google Scholar 发送额外的数据请求。
+
+期刊和会议评级数据经过预处理后构建为本地索引，实现快速匹配。
+
+### 2. 作者角色识别
+
+扩展读取 Google Scholar 作者主页中的论文作者列表，并根据目标作者的位置判断：
+
+* 第一位 → **First Author**
+* 最后一位 → **Corr. Author Approximation**
+
+由于 Google Scholar 不直接标注通讯作者，因此尾作者仅作为通讯作者的近似统计。
+
+### 3. 期刊与会议匹配
+
+针对 Google Scholar 中格式不统一的论文载体信息，匹配过程采用：
+
+1. 会议名称优先匹配；
+2. 期刊名称匹配；
+3. 对名称进行归一化处理后再次匹配。
+
+匹配过程中会忽略大小写、空格和部分常见格式差异，并支持会议全称与简称匹配。
+
+---
+
+## 项目结构
 
 ```text
 .
-├── manifest.json                     # MV3 manifest (content scripts, WAR entry for the index)
+├── manifest.json
 ├── data/
-│   ├── scu-journals.json             # SCU journal grading (raw)
-│   ├── ccf-directory.json            # CCF recommended list (raw)
-│   ├── dataset.json                  # combined raw scrape
-│   └── dist/venue-index.json         # compiled lookup index (bundled with the extension)
+│   ├── dataset.json
+│   └── dist/
+│       └── venue-index.json
 ├── scripts/
-│   ├── build-venue-index.js          # data/dist/venue-index.json builder
-│   ├── scrape-journal-data.js        # re-scrape source CSVs
-│   ├── profile-parser.js             # offline HTML parser (mirrors scholar-dom)
-│   ├── fetch-profile.js              # polite fixture downloader
-│   └── match-fixture.js              # offline match report
+│   ├── build-venue-index.js
+│   └── profile-parser.js
 ├── src/
-│   ├── shared/                       # constants, storage
-│   ├── content/                      # content scripts (dom, matcher, stats, UI, bootstrap)
-│   ├── options/                      # options page
-│   ├── popup/                        # toolbar popup
-│   └── background/                   # service worker
-├── styles/scholar-stat-panel.css     # panel + badge styles (fallback; native styles copied at runtime)
-└── tests/profile-matching.test.js    # offline regression tests
+│   ├── content/
+│   ├── background/
+│   ├── popup/
+│   └── options/
+├── styles/
+└── tests/
 ```
 
-## Build & test
+核心模块包括：
 
-```bash
-npm run build:venues   # rebuild data/dist/venue-index.json after data changes
-npm test               # matching regression tests + parser self-check (no network)
-```
+* **content**：Google Scholar 页面解析、指标计算与 UI 注入；
+* **data**：期刊、会议及评级数据；
+* **scripts**：数据索引构建与离线解析；
+* **popup / options**：扩展交互与配置；
+* **tests**：匹配规则回归测试。
 
-## Data pipeline
+---
+
+## 安装
+
+1. 下载或克隆本项目；
+2. 打开 Chrome：
 
 ```text
-data/scu-journals.json ─┐
-                        ├─ scripts/build-venue-index.js ─▶ data/dist/venue-index.json
-data/ccf-directory.json ─┘   (journals[] + confs[], precomputed folded keys)
+chrome://extensions
 ```
 
-The dataset comes from <https://scu-journal.east.monster/> (SCU journal grading 2021 + CCF recommended list 7th edition + CAS 2025 zones). The compiled index is bundled with the extension and fetched locally at runtime via `chrome.runtime.getURL` (declared in `web_accessible_resources`); a failed load degrades silently.
+3. 开启 **开发者模式**；
+4. 点击 **加载已解压的扩展程序**；
+5. 选择项目根目录；
+6. 打开任意 Google Scholar 作者主页。
 
-## Notes
+例如：
 
-- Author aliases are supported for background name matching only — there is deliberately no UI for them.
-- The target author name is read from the profile block only (the primary name above the title); "Other names" and other profile extras are deliberately ignored.
-- The `[Violation] Added non-passive event listener to a scroll-blocking 'touchstart'` warning in the DevTools console comes from Google Scholar's own page scripts, not from this extension (the extension registers no touch listeners).
-- "Corresponding" is approximated by last authorship — Google Scholar does not mark corresponding authors.
+```text
+https://scholar.google.com/citations?user=...
+```
+
+---
+
+## 构建与测试
+
+当期刊或会议数据更新后：
+
+```bash
+npm run build:venues
+```
+
+运行离线测试：
+
+```bash
+npm test
+```
+
+---
+
+## 数据来源
+
+评级数据基于以下公开数据整理：
+
+* 川大分级数据来源：《高质量科技期刊及学术会议分级参考方案（暂行）（2021）》
+* CCF 分级数据来源：《第七版中国计算机学会推荐国际学术会议和期刊目录（2026）》
+* 中科院分级数据来源：中国科学院期刊分区 2025 年版
+
+所有数据经过本地预处理后随扩展使用。
+
+---
+
+## 已知限制
+
+* Google Scholar 不提供通讯作者字段，因此 **Corr.** 采用尾作者进行近似；
+* Google Scholar 大多数时候都没有共一标识，因此该插件无法统计共一。
+* 部分形式的期刊或会议名称可能无法准确匹配；
+* Google Scholar 页面结构变化可能影响 DOM 解析，需要相应更新扩展。
+
+
+可以，在 README 最后加一个简洁的 **Contributing** 部分即可，比较符合开源项目的风格：
+
+## 🤝 Contributing
+
+欢迎任何形式的贡献！
+
+如果你发现：
+
+* 期刊或会议匹配存在问题；
+* Google Scholar 页面兼容性出现异常；
+* 评级数据需要补充或更新；
+* 有新的功能建议或改进思路；
+
+欢迎提交 **Issue** 或 **Pull Request**。
+
+无论是修复 Bug、完善数据、优化匹配规则，还是提出新的想法，都非常欢迎参与这个项目。
+
+如果这个项目对你有帮助，也欢迎 ⭐ Star 支持！
+
+
+
+---
 
 ## License
 
