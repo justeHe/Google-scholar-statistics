@@ -15,6 +15,10 @@
     return;
   }
 
+  // 详情请求失败后的会话内退避：短期内不再重试同一批失败的论文，
+  // 避免被 Google 限流后仍持续重复请求。
+  const DETAIL_RETRY_BACKOFF_MS = 120 * 1000;
+
   const state = {
     settings: null,
     targetName: "",
@@ -31,6 +35,39 @@
     venueIndexPromise: null
   };
 
+  // 等学者头像（#gsc_prf_pup）加载完成（或确认失败/超时）再继续：
+  // 头像与详情请求同属 citations 基础设施，先让头像走完，
+  // 避免我们的请求洪峰把它挤进限流/验证码窗口。
+  function waitForAvatar(timeoutMs) {
+    const limit = timeoutMs || 10000;
+    return new Promise((resolve) => {
+      const img = document.querySelector("#gsc_prf_pup");
+      if (!img || (img.complete && img.naturalWidth > 0)) {
+        resolve(Boolean(img && img.complete && img.naturalWidth > 0));
+        return;
+      }
+      const timer = root.setTimeout(() => {
+        cleanup();
+        resolve(false);
+      }, limit);
+      function onLoad() {
+        cleanup();
+        resolve(true);
+      }
+      function onError() {
+        cleanup();
+        resolve(false);
+      }
+      function cleanup() {
+        root.clearTimeout(timer);
+        img.removeEventListener("load", onLoad);
+        img.removeEventListener("error", onError);
+      }
+      img.addEventListener("load", onLoad);
+      img.addEventListener("error", onError);
+    });
+  }
+
   function currentRecords() {
     return state.order
       .map((id) => state.recordsById.get(id))
@@ -40,6 +77,8 @@
   function detailNeeded(record) {
     if (!state.settings.detailFetchEnabled) return false;
     if (!record || !record.href || record.detail) return false;
+    // 失败退避期内的论文不重试（避免限流后持续重复请求）。
+    if (record.detailSkipUntil && Date.now() < record.detailSkipUntil) return false;
     // 作者列表被省略号截断 → 详情页补全（通讯作者靠完整列表长度判断）。
     if ((record.authorsText || "").includes("...")) return true;
     // 载体行被省略号截断 → 详情页补全 Journal/Conference 字段。
@@ -131,6 +170,8 @@
         state.recordsById.set(record.id, buildRecord(latest, detail));
       }
     } catch (error) {
+      // 失败进入会话内退避，避免每轮扫描都重复请求同一批失败论文。
+      record.detailSkipUntil = Date.now() + DETAIL_RETRY_BACKOFF_MS;
       console.warn("Scholar First/Corresponding Metrics detail fetch failed:", error);
     } finally {
       state.detailPending.delete(record.id);
@@ -179,11 +220,33 @@
     }, 250);
   }
 
+  // 我们自己注入的徽章 DOM 变更不算页面变化，忽略以免自我触发重扫。
+  function isBadgeMutation(mutation) {
+    const target = mutation && mutation.target;
+    if (target && target.nodeType === 1 && target.classList) {
+      if (target.classList.contains("sas-venue-badge") || target.classList.contains("sas-badge-chip")) {
+        return true;
+      }
+      if (target.closest && target.closest(".sas-venue-badge")) return true;
+    }
+    return Array.from((mutation && mutation.addedNodes) || []).some((node) => {
+      if (node.nodeType !== 1) return false;
+      if (node.classList && (node.classList.contains("sas-venue-badge") || node.classList.contains("sas-badge-chip"))) {
+        return true;
+      }
+      return Boolean(node.querySelector && node.querySelector(".sas-venue-badge"));
+    });
+  }
+
   function observePaperChanges() {
     if (state.observer) state.observer.disconnect();
     const container = document.querySelector("#gsc_a_b") || document.body;
     state.observer = new MutationObserver((mutations) => {
-      const changed = mutations.some((mutation) => mutation.type === "childList" && mutation.addedNodes.length > 0);
+      const changed = mutations.some((mutation) => (
+        mutation.type === "childList" &&
+        mutation.addedNodes.length > 0 &&
+        !isBadgeMutation(mutation)
+      ));
       if (changed) debouncedScan();
     });
     state.observer.observe(container, { childList: true, subtree: true });
@@ -364,6 +427,12 @@
     }
 
     state.settings = await storage.getSettings();
+
+    // 每次先等学者头像加载完成（或确认失败/超时）再运行其余逻辑：
+    // 头像与详情请求共用 citations 基础设施，先让头像走完，
+    // 避免详情请求洪峰把头像挤进限流/验证码窗口。
+    await waitForAvatar();
+
     ui.ensurePanel(panelHandlers());
     installMessageListener();
 

@@ -6,9 +6,10 @@
     aliases: [],
     detailFetchEnabled: true,
     autoLoadAll: false,
-    requestSpacingMs: 180,
-    requestBatchLimit: 10,
-    requestBatchCooldownMs: 1200,
+    // 详情页请求刻意调慢调稀，避免触发 Google 限流（头像也会被连累）。
+    requestSpacingMs: 300,
+    requestBatchLimit: 4,
+    requestBatchCooldownMs: 2000,
     cacheDurationMs: 30 * 24 * 60 * 60 * 1000,
     topJournalCriteria: "scu",
     topJournalIncludeB: true,
